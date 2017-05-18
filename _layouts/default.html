@@ -19,7 +19,7 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1><img src="bitmoji3.png" width = "75" height = "75" alt="logo" />{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
@@ -27,7 +27,6 @@
         {% endif %}
         {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
-	  <img src="bitmoji3.png" width = "50" height = "50" alt="logo" />
         {% endif %}
       </div>
     </header>
