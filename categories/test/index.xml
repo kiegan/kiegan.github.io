@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on Kiegan Rice</title>
+    <link>/categories/test/</link>
+    <description>Recent content in test on Kiegan Rice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing out a blog post</title>
+      <link>/blog/testpostwimage/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/testpostwimage/</guid>
+      <description>Step 1. Write some words All I&amp;rsquo;m doing here is testing out a markdown file for the blog and a featured image.
+Let&amp;rsquo;s see what happens.</description>
+    </item>
+    
+  </channel>
+</rss>
