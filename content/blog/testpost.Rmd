@@ -1,0 +1,27 @@
+---
+title: "Hello blog!"
+author: "Kiegan Rice"
+date: 2018-10-28
+categories: ["R"]
+tags: ["R Markdown"]
+---
+
+```{r setup, include=FALSE, message = F}
+knitr::opts_chunk$set(collapse = TRUE)
+library(ggplot2)
+```
+
+# Welcome to the data blog!  
+
+I'm just now getting things set up, so this is a test post to make sure the blog is working alright. I'll be creating posts driven by data visualization here in the following months. Here goes nothing! 
+
+# Test plot  
+
+You can also embed plots. See Figure \@ref(fig:test) for example:
+
+```{r test, fig.cap='A test plot for the blog.', tidy=FALSE, echo = F, warning = F}
+
+ggplot(mtcars) + geom_boxplot(aes(x = factor(cyl), y = mpg)) + theme_bw()
+
+
+```
