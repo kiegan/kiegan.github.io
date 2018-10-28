@@ -13,7 +13,7 @@ I earned my MSc in Statistics from Iowa State University in December 2017. My cr
 
 My research interests include data visualization, statistical graphics, data journalism, statistical learning, and [statistical applications in forensic evidence](https://forensicstats.org/). 
 
-You can learn more about my professional activities by {{% staticref "CV.pdf" %}}viewing my CV{{% /staticref %}}. 
+You can learn more about my professional activities by viewing my CV.
 
 
 ## Personal 
