@@ -135,18 +135,18 @@ publishDir = "../kiegan.github.io"
 #  identifier = "fa fa-list"
 #  weight = 4
 
-[[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  identifier = "fa fa-sitemap"
-  weight = 4
+#[[menu.main]]
+#  name = "Categories"
+#  url = "/categories/"
+#  identifier = "fa fa-sitemap"
+#  weight = 4
 
 
 [[menu.main]]
     name = "CV"
     url = "/cv.pdf"
     identifier = "fa fa-university"
-    weight = 5
+    weight = 4
     
     
 #[[menu.main]]
