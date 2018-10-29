@@ -32,7 +32,7 @@ publishDir = "../kiegan.github.io"
   # Sets Categories to sort by number of posts instead of alphabetical
   categoriesByCount    = true
   # set to show or to hide categories in the sidebar
-  showSidebarCategories = true
+  showSidebarCategories = false
   # Sets Estimated Reading Time to appear in post headers
   includeReadingTime   = false
   # Sets the Favicon and Version for the site. Default support is for
