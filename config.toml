@@ -144,7 +144,7 @@ publishDir = "../kiegan.github.io"
 
 [[menu.main]]
     name = "CV"
-    url = "/cv/CV.pdf"
+    url = "/cv.pdf"
     identifier = "fa fa-university"
     weight = 5
     
