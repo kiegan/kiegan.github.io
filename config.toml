@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://kiegan.github.io"
 languageCode = "en-us"
 title = "Kiegan Rice"
 theme = "hugo-future-imperfect"

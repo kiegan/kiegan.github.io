@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kiegan Rice</title>
-    <link>/categories/</link>
+    <link>https://kiegan.github.io/categories/</link>
     <description>Recent content in Categories on Kiegan Rice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kiegan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/categories/</link>
+      <link>https://kiegan.github.io/categories/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/</guid>
+      <guid>https://kiegan.github.io/categories/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://kiegan.github.io/categories/r/</link>
       <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>https://kiegan.github.io/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>/categories/test/</link>
+      <link>https://kiegan.github.io/categories/test/</link>
       <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/test/</guid>
+      <guid>https://kiegan.github.io/categories/test/</guid>
       <description></description>
     </item>
     
