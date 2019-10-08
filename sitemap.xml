@@ -3,107 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kiegan.github.io/blog/testpost/</loc>
+    <loc>/blog/testpost/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/blog/testpostwimage/</loc>
+    <loc>/blog/testpostwimage/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/itemized/item1/</loc>
+    <loc>/itemized/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/itemized/item2/</loc>
+    <loc>/itemized/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/itemized/item3/</loc>
+    <loc>/itemized/item3/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/itemized/item4/</loc>
+    <loc>/itemized/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/about/</loc>
+    <loc>/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kiegan.github.io/about/"
+                href="/about/"
                 />
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/about/</loc>
+    <loc>/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kiegan.github.io/about/"
+                href="/about/"
                 />
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/itemized/</loc>
+    <loc>/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kiegan.github.io/categories/test/</loc>
+    <loc>/categories/test/</loc>
     <lastmod>2018-10-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
