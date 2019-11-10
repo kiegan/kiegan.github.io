@@ -1,0 +1,227 @@
+---
+title: 'Let It (Randomly) Snow! '
+author: Kiegan Rice
+date: '2019-11-10'
+slug: let-it-randomly-snow
+categories: []
+tags:
+  - ggplot2
+  - snow
+  - gganimate
+description: ''
+featured: '../../post/2019-11-10-let-it-randomly-snow_files/snow_falling_gif.gif'
+featuredalt: 'Snow Pic'
+featuredpath: 'date'
+linktitle: ''
+---
+
+It's that time of year in the Midwest; the first snowfalls of the year are here. Stubborn midwesterners (like me) are attempting to wait as long as possible before breaking out their winter coats. "It should still be fall, right? This snow is just an early abberation and things will warm up again!"
+
+Every few days, conversations are abuzz with the prospect of snow. And every so often, groans can be audibly heard across my apartment complex as people awake to find their cars covered in a light coat of ice and snow.  
+
+Groans about snow are not surprising, either. A 2009 Pew Research Center report found that about 57\% of Americans prefer living in a hotter climate, while only 29\% prefer a cold climate^[https://www.pewsocialtrends.org/2009/03/18/most-like-it-hot/].  
+
+I, for one, am solidly in the camp of the 29\%. I'm from the Midwest and I *love* winter. Snowfall is by far my favorite weather phenomenon (besides *thundersnow*!)^[https://www.nytimes.com/2018/03/07/climate/thundersnow.html].  
+
+While working on a fun visualization project about snowfall in the Midwest over the last couple of years (*blog post coming soon*), a friend suggested I visualize actual snowfall. My gears immediately started turning, and I promptly spent my Friday evening making it (randomly) snow.  
+
+Inspired by a recent ISU Graphics Group talk by Katherine Goode on the `gganimate` package^[https://goodekat.github.io/presentations/2019-isugg-gganimate-spooky/slides.html#1], I figured it would be pretty easy to animate snow if you randomly generated locations and times for each snowflake to start falling.  
+
+You'll see in the following code that I use several `R` packages: [`ggplot2`](https://ggplot2.tidyverse.org/index.html),  [`gganimate`](https://github.com/thomasp85/gganimate), and (as always), the [`tidyverse`](https://www.tidyverse.org/) (which actually includes `ggplot2`, but I like to give `ggplot2` it's own credit).  
+
+```{r, warning = F, message = F}
+library(tidyverse)
+library(ggplot2)
+library(gganimate)
+```
+
+To get things ready for the `gganimate` way of animating, I created a function with two inputs: 
+
+`n_times`: how many possible start times there are for each snowflake (how many frames will eventually go into the animation)  
+`n_flakes`: how many snowflakes to animate  
+
+The initial function, seen below, generates a `data.frame`:  
+```{r}
+generate_snowflakes <- function(n_times = 100, n_flakes = 100){
+  flake_frame <- data.frame(
+    time = rep(1:n_times, n_flakes), 
+            # assign a flake number
+            flake_num = rep(1:n_flakes, each = n_times), 
+            # generate a random x location between 0 and 1
+            flake_location_x = rep(runif(n_flakes), each = n_times), 
+            # generate a random snowflake size between 0.3 and 1  
+            size = rep(runif(n_flakes, min = 0.3, max = 1), each = n_times))
+  # create an empty vector for y locations
+  locations_y <- c()
+  for(i in 1:n_flakes){
+    # for each snowflake, get a "speed" between 1 and 10
+    # this makes "size" and "speed" relative. 
+    # The smaller the snowflake, the faster speed will be 
+    speed <- floor(10*unique(flake_frame$size)[i])
+    # generate a random start time for each snowflake
+    start_time <- sample(1:(n_times-speed), 1)
+    # create a sequence of heights for each flake: 
+    # NA until start_time, 
+    # then drops according to speed, 
+    # then NA again! 
+    y_seq <- c(rep(NA, start_time - 1), 
+              1 - (1/speed)*(0:speed), 
+              rep(NA, n_times - start_time-speed))
+    locations_y <- c(locations_y, y_seq)
+  }
+  flake_frame$flake_locations_y <- locations_y
+  # adjust flake size for plotting
+  flake_frame$size <- flake_frame$size/15
+  return(flake_frame)
+}
+```
+
+```{r}
+first_snow <- generate_snowflakes(n_times = 100, n_flakes = 100)
+head(first_snow)
+```
+
+
+Now, we can go ahead and animate this data:  
+```{r, eval = F}
+first_snow %>%
+  ggplot(aes(x = flake_location_x, y = flake_locations_y)) + 
+  geom_point(aes(group = flake_num, size = size), color = "steelblue") + 
+  theme_void() +
+  theme(legend.position = "none") + 
+  transition_time(time) # where gganimate comes in! 
+```
+
+![](/post/2019-11-10-let-it-randomly-snow_files/first_snow_gif.gif)
+
+
+And we have liftoff!!! 
+
+Now, one of the cool features of `gganimate` is that you can actually make objects have a "wake" that travels behind them. This really helps visualize that the snow is *falling*: 
+
+```{r, eval = F}
+first_snow %>%
+  ggplot(aes(x = flake_location_x, y = flake_locations_y)) + 
+  geom_point(aes(group = flake_num, size = size), color = "steelblue") + 
+  theme_void() +
+  theme(legend.position = "none") + 
+  transition_time(time) + # where gganimate comes in! 
+  shadow_wake(wake_length = 0.05, alpha = FALSE) 
+```
+
+![](/post/2019-11-10-let-it-randomly-snow_files/first_snow_wake_gif.gif)
+
+
+Of course, this would look even better if the shapes were a little more "snow-like", so we can use `shape = 8` to give us snowflakes! 
+
+```{r, eval = F}
+first_snow %>%
+  ggplot(aes(x = flake_location_x, y = flake_locations_y)) + 
+  geom_point(aes(group = flake_num, size = size), 
+             color = "steelblue", shape = 8) + # make it snow
+  theme_void() +
+  theme(legend.position = "none") + 
+  transition_time(time) + 
+  shadow_wake(wake_length = 0.05, alpha = FALSE) 
+```
+
+![](/post/2019-11-10-let-it-randomly-snow_files/first_snow_wake_flakes_gif.gif)
+
+
+Ahhhh. Don't you just feel relaxed, and in a holiday mood? I can just stare at this, sip my cup of tea, and feel instantly calm.  
+
+Here's a slightly larger version, made by simply specifying larger size using the `animate` function: 
+
+```{r, eval = F}
+first_snow_gif <- first_snow %>%
+  ggplot(aes(x = flake_location_x, y = flake_locations_y)) + 
+  geom_point(aes(group = flake_num, size = size), 
+             color = "steelblue", shape = 8) + # make it snow
+  theme_void() +
+  theme(legend.position = "none") + 
+  transition_time(time) + 
+  shadow_wake(wake_length = 0.05, alpha = FALSE) 
+
+animate(first_snow_gif, width = 1000, height = 750)
+```
+
+![](../../post/2019-11-10-let-it-randomly-snow_files/snow_falling_gif.gif)
+
+And here's a night-time version, made by adding a theme element: 
+
+```{r, eval = F}
+snow_falling_gif_dark <- flake_frame %>%
+  ggplot(aes(x = flake_location_x, y = flake_locations_y)) + 
+  geom_point(aes(group = flake_num, size = size), color = "aliceblue", shape = 8) + 
+  theme_void() +
+  theme(plot.background = element_rect(fill = "black")) + ## added!
+  transition_time(time) + 
+  shadow_wake(wake_length = 0.05, alpha = FALSE)
+```
+
+
+![](../../post/2019-11-10-let-it-randomly-snow_files/snow_falling_gif_dark.gif)
+
+
+Now, I currently live in Iowa. It's windy here. I fondly refer to Iowa as "the state where wind comes to slowly destroy your soul". So snow almost never goes in a straight downward fashion!  
+
+I made another function that incorporates an angle to the snowfall. All it does is slightly adjust the current `x` location by a slight angle at each time point. 
+
+```{r, eval = F}
+generate_snowflakes_angle <- function(n_times = 100, n_flakes = 100, 
+                                      angle = 0.1){
+  flake_frame <- (...) # all other things from the initial function here
+  # add in a little mutate function!
+  flake_frame <- flake_frame %>% 
+    mutate(flake_locations_x_angle = 
+             flake_location_x + angle*flake_locations_y)
+  return(flake_frame)
+}
+```
+
+```{r, eval = F}
+angle_val = 0.1
+flakes_angle_1 <- generate_snowflakes(n_times = 100, n_flakes = 150, angle = angle_val)
+flakes_angle_1 %>%
+  ggplot(aes(x = flake_locations_x_angle, y = flake_locations_y)) + 
+  geom_point(aes(group = flake_num, size = size), color = "steelblue", shape = 8) + 
+  theme_void() +
+  theme(legend.position = "none") + 
+  transition_time(time) + 
+  shadow_wake(wake_length = 0.05, alpha = FALSE) + 
+  xlim(c(0 + angle_val/2, 1 + angle_val/2))
+
+```
+
+![](/post/2019-11-10-let-it-randomly-snow_files/snow_angle1_gif.gif)
+
+
+Here's one with a steeper angle (`angle = 0.3`):  
+
+![](/post/2019-11-10-let-it-randomly-snow_files/snow_angle3_gif.gif)
+
+
+The wind in Iowa is unfortunately not quite so dependable, and often the wind gusts send snow in every which way. So, another way to do this is to assign a random angle to each snowflake: 
+
+```{r, eval = F}
+generate_snowflakes_random_angle <- function(n_times = 100, n_flakes = 100){
+  flake_frame <- data.frame(time = rep(1:n_times, n_flakes), 
+            flake_num = rep(1:n_flakes, each = n_times), 
+            flake_location_x = rep(runif(n_flakes), each = n_times), 
+            size = rep(runif(n_flakes, min = 0.3, max = 1), each = n_times), 
+            angle = rep(runif(n_flakes, min = -0.5, max = 0.5), each = n_times))
+  (...)
+  flake_frame <- flake_frame %>%
+    mutate(flake_locations_x_angle = flake_location_x + angle*flake_locations_y)
+  return(flake_frame)
+}
+flakes_random_angle <- generate_snowflakes_random_angle(n_times = 100, n_flakes = 150)
+```
+
+Then, we can still visualize in the usual way and get a randomly angled snowstorm: 
+
+![](/post/2019-11-10-let-it-randomly-snow_files/snow_angle_random_gif.gif)
+
+
+Now, if you'll excuse me, I'm going to go make a cup of tea, stare at these animations, and brainstorm more ways to make it snow. :) 
+
