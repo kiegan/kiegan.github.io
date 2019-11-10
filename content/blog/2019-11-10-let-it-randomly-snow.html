@@ -66,12 +66,12 @@ library(gganimate)</code></pre>
 <pre class="r"><code>first_snow &lt;- generate_snowflakes(n_times = 100, n_flakes = 100)
 head(first_snow)</code></pre>
 <pre><code>##   time flake_num flake_location_x       size flake_locations_y
-## 1    1         1        0.4405354 0.04161898                NA
-## 2    2         1        0.4405354 0.04161898                NA
-## 3    3         1        0.4405354 0.04161898                NA
-## 4    4         1        0.4405354 0.04161898                NA
-## 5    5         1        0.4405354 0.04161898                NA
-## 6    6         1        0.4405354 0.04161898                NA</code></pre>
+## 1    1         1        0.6453724 0.02634091                NA
+## 2    2         1        0.6453724 0.02634091                NA
+## 3    3         1        0.6453724 0.02634091                NA
+## 4    4         1        0.6453724 0.02634091                NA
+## 5    5         1        0.6453724 0.02634091                NA
+## 6    6         1        0.6453724 0.02634091                NA</code></pre>
 <p>Now, we can go ahead and animate this data:</p>
 <pre class="r"><code>first_snow %&gt;%
   ggplot(aes(x = flake_location_x, y = flake_locations_y)) + 
