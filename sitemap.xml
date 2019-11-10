@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/let-it-randomly-snow/</loc>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/let-it-randomly-snow/</loc>
     <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
