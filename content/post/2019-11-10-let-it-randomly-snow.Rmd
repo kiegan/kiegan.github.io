@@ -8,16 +8,14 @@ tags:
   - ggplot2
   - snow
   - gganimate
-description: 'It is that time of the year in the Midwest... the first snowfalls of the year are here.'
+description: ''
 featured: '../../post/2019-11-10-let-it-randomly-snow_files/snow_falling_gif.gif'
 featuredalt: 'Snow Pic'
 featuredpath: 'date'
 linktitle: ''
 ---
 
-It's that time of year in the Midwest; the first snowfalls of the year are here. Stubborn midwesterners (like me) are attempting to wait as long as possible before breaking out their winter coats.  
-
-"It should still be fall, right? This snow is just an early abberation and things will warm up again!"
+It's that time of year in the Midwest; the first snowfalls of the year are here. Stubborn midwesterners (like me) are attempting to wait as long as possible before breaking out their winter coats. "It should still be fall, right? This snow is just an early aberration and things will warm up again!"
 
 Every few days, conversations are abuzz with the prospect of snow. And every so often, groans can be audibly heard across my apartment complex as people awake to find their cars covered in a light coat of ice and snow.  
 
@@ -31,7 +29,7 @@ Inspired by a recent ISU Graphics Group talk by Katherine Goode on the `gganimat
 
 You'll see in the following code that I use several `R` packages: [`ggplot2`](https://ggplot2.tidyverse.org/index.html),  [`gganimate`](https://github.com/thomasp85/gganimate), and (as always), the [`tidyverse`](https://www.tidyverse.org/) (which actually includes `ggplot2`, but I like to give `ggplot2` it's own credit).  
 
-```{r, eval = F, warning = F, message = F}
+```{r, warning = F, message = F}
 library(tidyverse)
 library(ggplot2)
 library(gganimate)

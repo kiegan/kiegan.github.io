@@ -15,7 +15,7 @@ featuredpath: 'date'
 linktitle: ''
 ---
 
-It's that time of year in the Midwest; the first snowfalls of the year are here. Stubborn midwesterners (like me) are attempting to wait as long as possible before breaking out their winter coats. "It should still be fall, right? This snow is just an early abberation and things will warm up again!"
+It's that time of year in the Midwest; the first snowfalls of the year are here. Stubborn midwesterners (like me) are attempting to wait as long as possible before breaking out their winter coats. "It should still be fall, right? This snow is just an early aberration and things will warm up again!"
 
 Every few days, conversations are abuzz with the prospect of snow. And every so often, groans can be audibly heard across my apartment complex as people awake to find their cars covered in a light coat of ice and snow.  
 

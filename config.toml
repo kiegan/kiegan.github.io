@@ -126,7 +126,7 @@ publishDir = "../kiegan.github.io"
 
 [[menu.main]]
   name = "Blog"
-  url = "/blog/"
+  url = "/post/"
   identifier = "fa fa-newspaper-o"
   weight = 3
 
