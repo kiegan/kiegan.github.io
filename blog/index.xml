@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Kiegan Rice</title>
@@ -27,7 +27,7 @@ Every few days, conversations are abuzz with the prospect of snow. And every so 
       <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/testpost/</guid>
-      <description>Welcome to the data blog! I’m just now getting things set up, so this is a test post to make sure the blog is working alright. I’ll be creating posts driven by data visualization here in the following months. Here goes nothing!
+      <description> Welcome to the data blog! I’m just now getting things set up, so this is a test post to make sure the blog is working alright. I’ll be creating posts driven by data visualization here in the following months. Here goes nothing!
  Test plot You can also embed plots. See Figure 1 for example:
  Figure 1: A test plot for the blog.   </description>
     </item>
