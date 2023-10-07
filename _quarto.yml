@@ -5,7 +5,7 @@ project:
 website:
   title: "Kiegan Rice"
   reader-mode: false
-  favicon: favicon.jpg
+  favicon: www/favicon.jpg
   navbar:
     pinned: true
     right:
