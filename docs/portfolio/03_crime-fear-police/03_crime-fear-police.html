@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-01-01">
+<meta name="description" content="Tools to explore the intersection of crime, perceived crime, and police contact. Submission for the 2023 JSM Data Challenge.">
+
+<title>Kiegan Rice - Crime, Fear, and Police Contact</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kiegan Rice</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../portfolio.html">visual portfolio</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../toolbox.html">my toolbox</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../products.html">talks and papers</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Crime, Fear, and Police Contact</h1>
+                  <div>
+        <div class="description">
+          Tools to explore the intersection of crime, perceived crime, and police contact. Submission for the 2023 JSM Data Challenge.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">2023</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><img src="crime-fear-police-main.jpg" class="img-fluid" style="border: 1px solid black; border-radius: 5px;"></p>
+<section id="about-this-project" class="level2">
+<h2 data-anchor-id="about-this-project">About this project</h2>
+<p>This site presents a series of tools to explore data on crime, fear, and police contact in the U.S. This site was a submission for the 2023 Joint Statistical Meetings (JSM) Data Challenge, which required usage of National Crime Victimization Survey (NCVS) data. Our team created a site which presents data from three different sources: NCVS, the General Social Survey (GSS), and the Police-Public Contact Survey (PPCS). Our goal was to allow people to explore the relationships between experiencing crime (NCVS), perceptions of crime (GSS), and interactions with law enforcement (PPCS).</p>
+<p>There are four different ways to explore the data:</p>
+<ol type="1">
+<li><p>Read an overview story with interactive visuals about how perceptions of crime and crime victimization differ,</p></li>
+<li><p>Explore NCVS, GSS, and PPCS measures for a specific subgroup of interest,</p></li>
+<li><p>Compare groups’ experiences by race/ethnicity, age, sex, and region of the country,</p></li>
+<li><p>Explore synthetic data which combines measures from the three surveys into one set of responses.</p></li>
+</ol>
+<p><a href="https://crimeviz.norc.org" target="_blank"> <button class="btn btn-success"> Visit the Crime, Fear, and Police Contact site → </button> </a> <br></p>
+</section>
+<section id="who-was-involved" class="level2">
+<h2 data-anchor-id="who-was-involved">Who was involved</h2>
+<p>This data explorer was a collaboration between four NORC staff: me, Taylor Wing, Henry Beimers, and Anthony Washburn. Anthony was our methodological lead, determining research questions to be answered on each page and providing guidance on data labels, data processing, and interpretation. He lead the preparation of the data for the entire application. Taylor designed the ‘Compare Groups’ page, and both Taylor and Henry contributed drop-down/filter and visualization code to the site.</p>
+<section id="my-role" class="level4">
+<h4 data-anchor-id="my-role">My role</h4>
+<p>I designed the site landing page, navigation, user experience, and three of the four visualization tabs. I built the site styling components and navigation, two of the visualization tabs, and the Home and About pages.</p>
+</section>
+</section>
+<section id="tools-used" class="level2">
+<h2 data-anchor-id="tools-used">Tools used</h2>
+<p>The whole site is a <code>shiny</code> application. The team used <code>ggiraph</code> to build all of the interactive charts. This was another project where we heavily used <code>glue</code> to build out the language for tooltips/hover-overs on the interactive charts.</p>
+<p><i>Learn more about some of the key tools from this project by clicking on the hex.</i></p>
+<p><a href="https://shiny.posit.co/" target="_blank"><img src="../../www/tools-shiny.png" class="hex-class-small img-fluid"></a> <a href="http://davidgohel.github.io/ggiraph/" target="_blank"><img src="../../www/tools-ggiraph.png" class="hex-class-small img-fluid"></a> <a href="https://glue.tidyverse.org/" target="_blank"><img src="../../www/tools-glue.png" class="hex-class-small img-fluid"></a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

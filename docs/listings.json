@@ -1,0 +1,33 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/portfolio/04_sdr-interactives/04_sdr-interactives.html",
+      "/portfolio/03_crime-fear-police/03_crime-fear-police.html",
+      "/portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html",
+      "/portfolio/01_mcbs-interactives/01_mcbs-interactives.html",
+      "/portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html",
+      "/products/2022/01_rstudioconf-pollinator.html",
+      "/products/2020/02_sdss-2020.html",
+      "/products/2020/01_dissertation.html"
+    ]
+  },
+  {
+    "listing": "/products.html",
+    "items": [
+      "/products/2022/01_rstudioconf-pollinator.html",
+      "/products/2020/02_sdss-2020.html",
+      "/products/2020/01_dissertation.html"
+    ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/portfolio/04_sdr-interactives/04_sdr-interactives.html",
+      "/portfolio/03_crime-fear-police/03_crime-fear-police.html",
+      "/portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html",
+      "/portfolio/01_mcbs-interactives/01_mcbs-interactives.html",
+      "/portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html"
+    ]
+  }
+]

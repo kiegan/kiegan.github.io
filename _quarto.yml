@@ -1,11 +1,11 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Kiegan Rice"
   reader-mode: false
   favicon: favicon.jpg
-  output-dir: docs
   navbar:
     pinned: true
     right:
