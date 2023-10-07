@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Kiegan Rice"
+  reader-mode: false
+  favicon: favicon.jpg
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: "home"
+      - href: portfolio.qmd
+        text: "visual portfolio"
+      - href: toolbox.qmd
+        text: "my toolbox"
+      - href: products.qmd
+        text: "talks and papers"
+format:
+  html:
+    theme: custom.scss
+    css: styles.css
+    toc: false
+    anchor-sections: false
+
+
+

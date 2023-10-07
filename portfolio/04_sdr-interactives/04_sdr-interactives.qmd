@@ -1,0 +1,56 @@
+---
+title: "SDR Data in Action"
+image: sdr-interactives-main.jpg
+description: "Interactive visuals highlighting the Survey of Doctorate Recipients data in action on the survey website."
+date: "09-01-2023"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+![](sdr-interactives-main.jpg){width="20rem" style="border: 1px solid black; border-radius: 5px;"}
+
+
+## About this project
+
+This project developed a series of interactive visuals to highlight the Survey of Doctorate Recipients (SDR) data and its utility on the SDR survey website. These visuals highlight the breadth and depth of the data and show viewers the importance of collecting SDR data and how it can be used to gain insight about the population of doctorate recipients in the U.S. 
+
+
+There are four different visuals:
+
+1.  Bubble chart exploring the number of doctorates in each degree field with a paired table showing employment sectors for that field,
+
+2.  Bar chart showing the sex breakdown of doctorate holders in different occupations,
+
+3.  Parallel sets diagram showing movement patterns in and out of the workforce, 
+
+4.  Map and bar showing where doctorate holders live and work around the world. 
+
+
+
+<a href="https://www.nsfsdr.org/" target="_blank">
+<button class="btn btn-success"> See the Data in Action charts on the SDR site &#8594; </button>
+</a>
+<br>
+
+
+## Who was involved
+
+These 'Data in Action' visuals were a collaboration between me, [Nola du Toit](https://www.norc.org/about/experts/nola-du-toit.html){target='_blank'}, and [Lance Selfa](https://www.norc.org/about/experts/lance-a-selfa.html){target='_blank'}. Two of the graphics were built by me in R-based tools, while two of them were built by Lance and Nola in Tableau. 
+
+#### My role
+
+I programmed both the bubble chart and parallel sets diagram, after working with Lance and Nola to design them. 
+
+## Tools used
+
+These interactive charts displayed and laid out as HTML pages using `rmarkdown`. The bubble chart was built using `ggiraph` and the tables on the right are `ggiraph` hover-overs built using the `gt` package. The parallel sets diagram was built in D3 and included in the page using `r2d3`. 
+
+<i>Learn more about some of the key tools from this project by clicking on the hex.</i>
+
+[![](../../www/tools-rmarkdown.png){class='hex-class-small'}](https://rmarkdown.rstudio.com/){target='_blank'}
+[![](../../www/tools-ggiraph.png){class='hex-class-small'}](http://davidgohel.github.io/ggiraph/){target='_blank'}
+[![](../../www/tools-r2d3.png){class='hex-class-small'}](https://rstudio.github.io/r2d3/){target='_blank'}
+[![](../../www/tools-gt.png){class='hex-class-small'}](https://gt.rstudio.com/index.html){target='_blank'}
+
+

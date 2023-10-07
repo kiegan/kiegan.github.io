@@ -1,0 +1,33 @@
+---
+listing: 
+  id: portfolio-listings
+  contents: portfolio
+  type: grid
+  grid-columns: 2
+  image-height: '15rem'
+  date-format: "YYYY"
+  sort: "date desc"
+---
+
+
+::: {.welcome-portfolio-background}
+
+::: {.column-screen .centered}
+
+# visual portfolio
+
+Explore some of my public-facing project work below. Click on a project to learn more about the process, tools, and team involved to make it happen.
+
+:::
+:::
+
+<br>
+<br>
+
+::: {.column-page}
+::: {#portfolio-listings}
+
+:::
+:::
+
+

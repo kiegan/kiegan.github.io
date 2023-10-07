@@ -1,0 +1,48 @@
+---
+title: "NEAS Pathways Tool"
+image: neas-pathways-main.jpg
+description: "Interactive data tool for National Education and Attainment Survey (NEAS)."
+date: "01-01-2021"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+
+![](neas-pathways-home.jpg){width="20rem" style="border: 1px solid black; border-radius: 5px;"}
+
+
+## About this project
+
+This project, an interactive data tool with data from the National Education and Attainment Survey (NEAS), allows users to explore NEAS data along three main topics. Visitors can:
+
+1.  View trajectories of subgroups of U.S. adults through milestones in educational attainment and employment,
+
+2.  Compare career and educational attainment outcomes across demographic groups,
+
+3.  Explore the demographic distributions of those who obtain post-secondary certificates and those who do not.
+
+
+<a href="https://neas.norc.org" target="_blank">
+<button class="btn btn-success"> Visit the NEAS Pathways Tool site &#8594; </button>
+</a>
+<br>
+
+
+## Who was involved
+
+This project was built by me and the incredible [Will Bonnell](https://www.willdebras.dev/){target="_blank"} and [Shalima Zalsha](https://norc.org/about/experts/shalima-zalsha.html){target="_blank"}, with oversight and design feedback by [Nola du Toit](https://www.norc.org/about/experts/nola-du-toit.html){target="_blank"}.
+
+Will made the really cool 'game board' on the home page and did a lot of the site styling, including the characteristics selector on the 'Trajectories' page, which was one of my first intros to `shinyjs`. Shalima lead the development of the beautiful `plotly`-based graphics on the 'Certificate Attainment' page.
+
+#### My role
+
+Will and I worked the parallel sets diagrams together, and I did a lot of the site styling and layout. This was one of my first projects where I had to start learning CSS and how to style a Shiny site; I learned a ton throughout the process.
+
+## Tools used
+
+The whole site is a `shiny` application. We used `r2d3` for the D3-based parallel sets diagrams.
+
+<i>Learn more about some of the key tools from this project by clicking on the hex.</i>
+
+[![](../../www/tools-shiny.png){.hex-class-small}](https://shiny.posit.co/){target="_blank"} [![](../../www/tools-r2d3.png){.hex-class-small}](https://rstudio.github.io/r2d3/){target="_blank"}

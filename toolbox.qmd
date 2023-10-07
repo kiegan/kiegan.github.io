@@ -1,0 +1,133 @@
+
+::: {.welcome-toolbox-background}
+
+::: {.column-screen .centered}
+
+# my toolbox
+
+Read more about the set of tools I use. My home base is R, but I leverage a lot of HTML, CSS, and JavaScript along the way. 
+
+:::
+:::
+
+
+
+
+::: {.toolbox-section}
+::: {.column-page}
+## wrangle
+
+Data wrangling takes time; often at least half the energy spent on an interactive tool build is on data preparation. Tools from the `tidyverse` make it easier. I use packages like `tidyr`, `dplyr`, `stringr` and `purrr` to get data into tidy and usable formats. Making sure data are formatted properly for display is key; `lubridate` and `glue` are a go-to for me for that purpose. 
+
+<i>Click on a hex to go to the package website.</i>
+<br><br>
+
+[![](www/tools-dplyr.png){class='hex-class'}](https://dplyr.tidyverse.org/){target='_blank'}
+[![](www/tools-glue.png){class='hex-class'}](https://glue.tidyverse.org/){target='_blank'}
+[![](www/tools-stringr.png){class='hex-class'}](https://stringr.tidyverse.org/){target='_blank'}
+[![](www/tools-purrr.png){class='hex-class'}](https://purrr.tidyverse.org/){target='_blank'}
+[![](www/tools-tidyr.png){class='hex-class'}](https://tidyr.tidyverse.org/){target='_blank'}
+[![](www/tools-lubridate.png){class='hex-class'}](https://lubridate.tidyverse.org/){target='_blank'}
+[![](www/tools-haven.png){class='hex-class'}](https://haven.tidyverse.org/){target='_blank'}
+
+<br>
+Other packages and tools I use: 
+<br>
+[openxlsx](https://ycphs.github.io/openxlsx/){target='_blank'}  
+
+<br>
+
+
+
+:::
+:::
+
+
+::: {.toolbox-section2}
+::: {.column-page}
+
+## visualize 
+
+I primarly use the `ggplot2` package for data visualization and related extensions for interactivity and animation. Currently, I primarily use `ggiraph` for interactive graphics. I also use the D3 JavaScript library and incorporate D3-based graphics in R-based tools using the `r2d3` package. 
+
+<i>Click on a hex to go to the package website.</i>
+<br><br>
+
+[![](www/tools-ggplot2.png){class='hex-class'}](https://ggplot2.tidyverse.org/){target='_blank'}
+[![](www/tools-ggiraph.png){class='hex-class'}](http://davidgohel.github.io/ggiraph/){target='_blank'}
+[![](www/tools-r2d3.png){class='hex-class'}](https://rstudio.github.io/r2d3/){target='_blank'}
+[![](www/tools-patchwork.png){class='hex-class'}](https://patchwork.data-imaginist.com/){target='_blank'}
+[![](www/tools-gt.png){class='hex-class'}](https://gt.rstudio.com/index.html){target='_blank'}
+
+
+
+<br>
+Other packages and tools I use: 
+<br>
+[reactable](https://glin.github.io/reactable/){target='_blank'}  
+[DT](https://rstudio.github.io/DT/){target='_blank'}  
+[cowplot](https://wilkelab.org/cowplot/articles/plot_grid.html){target='_blank'}  
+[D3](https://d3js.org/){target='_blank'}  
+[plotly](https://plotly.com/r/){target='_blank'}  
+[gganimate](https://gganimate.com/){target='_blank'}  
+<br>
+
+
+:::
+:::
+
+::: {.toolbox-section}
+::: {.column-page}
+
+## build
+
+How you design and build a data tool or website is an important part of setting the tone for the look, feel, and user experience. I build interactive applications in `shiny` for R and websites using `quarto`. I leverage HTML, CSS, and JavaScript libraries to style the site and add additional interactive features. I have also used parameterized `rmarkdown` reports to generate custom reports based on user interaction in Shiny applications. 
+
+<i>Click on a hex to go to the package website.</i>
+<br><br>
+
+[![](www/tools-shiny.png){class='hex-class'}](https://shiny.posit.co/){target='_blank'}
+[![](www/tools-htmltools.png){class='hex-class'}](https://rstudio.github.io/htmltools/){target='_blank'}
+[![](www/tools-sass.png){class='hex-class'}](https://rstudio.github.io/sass/reference/index.html){target='_blank'}
+[![](www/tools-quarto.png){class='hex-class'}](https://quarto.org/){target='_blank'}
+[![](www/tools-rmarkdown.png){class='hex-class'}](https://rmarkdown.rstudio.com/){target='_blank'}
+
+<br>
+Other packages and tools I use: 
+<br>
+[bsplus](https://ijlyttle.github.io/bsplus/articles/bsplus.html){target='_blank'}  
+[shinyWidgets](https://dreamrs.github.io/shinyWidgets/){target='_blank'}  
+[gdtools](https://github.com/davidgohel/gdtools){target='_blank'}  
+[shinydashboard](https://rstudio.github.io/shinydashboard/){target='_blank'}  
+[shinycssloaders](https://daattali.com/shiny/shinycssloaders-demo/){target='_blank'}  
+[shinyjs](https://deanattali.com/shinyjs/){target='_blank'}  
+
+<br>
+
+:::
+:::
+
+
+::: {.toolbox-section2}
+::: {.column-page}
+
+## manage
+
+
+Package management and deployment is a key part of the application building process. I utilize package management tools like `renv` and deployment and monitoring tools like `connectapi` as part of the development process. Web-based content that I build is deployed using a [Posit Connect](https://posit.co/products/enterprise/connect/) server. The `metathis` package makes it easy to define meta tags and set header elements for a site. I use git-based workflows for version control and collaboration. 
+
+<i>Click on a hex to learn more about the tool.</i>
+<br><br>
+
+[![](www/tools-renv.png){class='hex-class'}](https://rstudio.github.io/renv/){target='_blank'}
+[![](www/tools-connectapi.png){class='hex-class'}](https://pkgs.rstudio.com/connectapi/){target='_blank'}
+[![](www/tools-rsconnect.png){class='hex-class'}](https://rstudio.github.io/rsconnect/){target='_blank'}
+[![](www/tools-metathis.svg){class='hex-class'}](https://pkg.garrickadenbuie.com/metathis/){target='_blank'}
+
+
+[![](www/tools-git.png){class='hex-class' width='10em'}](https://git-scm.com/){target='_blank'}  
+
+<br>
+
+:::
+:::

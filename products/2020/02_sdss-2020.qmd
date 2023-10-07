@@ -1,0 +1,25 @@
+---
+title: "A Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape"
+image: "02-sdss-2020-main.png"
+description: "Presentation at SDSS 2020"
+date: "06-04-2020"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+## Who was involved
+
+This work was jointly authored by myself and Dr. Heike Hofmann. 
+
+## Abstract
+
+Achieving computational reproducibility within data science pipelines is a dynamic, shifting task. Package development for data science is happening at a very rapid speed, both in R and python, the two main scripting languages for Data Science. This means, that an implemented data pipeline might produce different results due to a change in the underlying dependencies. Focusing on the R software we propose a paradigm for managing computational reproducibility that assists users in not only identifying when a package's functionality has changed, but also identifies whether that change will impact the results of a user's project code.
+
+## About this product
+
+This is an abbreviated version of one of my dissertation chapters on computational reproducibility. This work was presented at the [Symposium on Data Science and Statistics (SDSS)](https://ww2.amstat.org/meetings/sdss/2020/onlineprogram/AbstractDetails.cfm?AbstractID=308383){target='_blank'} in 2020. 
+
+[See the slides from my presentation](https://kiegan.github.io/talks/sdss-2020-manager/sdss-manager.html#1){target="_blank"}
+
+

@@ -1,0 +1,25 @@
+---
+title: "A framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison"
+image: "01-dissertation-main.png"
+description: "Dissertation submitted for completion of Ph.D. in Statistics at Iowa State University"
+date: "05-05-2020"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+## Who was involved
+
+This work was completed by me, with oversight and direction by my Ph.D. co-advisors Dr. Heike Hofmann and Dr. Ulrike Genschel and with feedback from my Ph.D. committee, including Drs. Alicia Carriquiry, Jennifer Newman, and Daniel Nordman. Much of this work was supported by the Center for Statistics and Applications in Forensic Evidence (CSAFE) at Iowa State University.
+
+## Abstract
+
+The analysis of data can be conceptualized as a process of sequential steps or actions applied to data in order to achieve a quantitative result. An important aspect of the process is how to ensure that it is reproducible. Reproducibility as it applies to Statistics research involves both statistical reproducibility and computational reproducibility. Achieving reproducibility is not trivial, particularly if the problem is complex or involves data from non-standard sources. Automated bullet evidence comparison as proposed by Hare et al. (2017) involves both a complex data analysis as well as a non-standard form of data. Here, it serves as a large-scale motivating example, to help us study the impact of decision-making on the statistical and computational reproducibility of a quantitative result. We first present a method for data pre-processing and assess its impact on bullet land engraved area (LEA) matching accuracy. This is followed by a large user variability study of the high-resolution bullet LEA scanning process and development of an extended Gauge Repeatability and Reproducibility framework. Finally, we propose a framework for adaptive computational reproducibility in a changing landscape of R packages and present software tools to facilitate the study and management of computational reproducibility in R.
+
+## About this product
+
+[Read my dissertation](https://dr.lib.iastate.edu/entities/publication/d86effb8-04f8-45e8-830b-2b97934d61c5){target="_blank"} [(DOI)](https://doi.org/10.31274/etd-20200902-126){target="_blank"}
+
+[See the slides from my public defense](https://kiegan.github.io/talks/defense-seminar-public/kiegan-public-seminar.html#1){target="_blank"}
+
+

@@ -1,0 +1,34 @@
+---
+listing: 
+  id: products-listings
+  contents: products
+  type: grid
+  image-height: '15rem'
+  grid-columns: 3
+  date-format: "YYYY"
+  sort: "date desc"
+---
+
+
+::: {.welcome-products-background}
+
+::: {.column-screen .centered}
+
+# presentations and publications
+
+Learn more about my conference presentations and research publications below. Click on a product to see details and related content.
+
+:::
+:::
+
+
+<br>
+<br>
+
+::: {.column-page}
+
+::: {#products-listings}
+:::
+
+:::
+

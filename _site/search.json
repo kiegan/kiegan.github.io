@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "products/2022/01_rstudioconf-pollinator.html",
+    "href": "products/2022/01_rstudioconf-pollinator.html",
+    "title": "How to be a pollinatoR",
+    "section": "",
+    "text": "This work was jointly authored with Weihuang Wong."
+  },
+  {
+    "objectID": "products/2022/01_rstudioconf-pollinator.html#abstract",
+    "href": "products/2022/01_rstudioconf-pollinator.html#abstract",
+    "title": "How to be a pollinatoR",
+    "section": "Abstract",
+    "text": "Abstract\nR users are part of data ecosystems comprising both statistical and non-statistical applications. We may work with SAS or Stata datafiles; non-R users may help run R scripts; or we may need to generate outputs in Word or Excel. Just as pollinators support biodiversity, we believe R users can be constructive members of diverse data ecosystems. Our talk will: (1) outline what it means to be constructive, (2) highlight tools that can help R users contribute to their ecosystems, and (3) describe practices that can improve workflows involving diverse groups of staff and software. We hope our talk will inspire R users to think creatively and empathetically about how R can be a force for good in diverse data ecosystems."
+  },
+  {
+    "objectID": "products/2022/01_rstudioconf-pollinator.html#about-this-product",
+    "href": "products/2022/01_rstudioconf-pollinator.html#about-this-product",
+    "title": "How to be a pollinatoR",
+    "section": "About this product",
+    "text": "About this product\nThis work was presented at rstudio::conf(2022) in 2020.\nWatch the recording of our presentation\nSee the slides from our presentation"
+  },
+  {
+    "objectID": "products/2020/01_dissertation.html",
+    "href": "products/2020/01_dissertation.html",
+    "title": "A framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison",
+    "section": "",
+    "text": "This work was completed by me, with oversight and direction by my Ph.D. co-advisors Dr. Heike Hofmann and Dr. Ulrike Genschel and with feedback from my Ph.D. committee, including Drs. Alicia Carriquiry, Jennifer Newman, and Daniel Nordman. Much of this work was supported by the Center for Statistics and Applications in Forensic Evidence (CSAFE) at Iowa State University."
+  },
+  {
+    "objectID": "products/2020/01_dissertation.html#abstract",
+    "href": "products/2020/01_dissertation.html#abstract",
+    "title": "A framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison",
+    "section": "Abstract",
+    "text": "Abstract\nThe analysis of data can be conceptualized as a process of sequential steps or actions applied to data in order to achieve a quantitative result. An important aspect of the process is how to ensure that it is reproducible. Reproducibility as it applies to Statistics research involves both statistical reproducibility and computational reproducibility. Achieving reproducibility is not trivial, particularly if the problem is complex or involves data from non-standard sources. Automated bullet evidence comparison as proposed by Hare et al. (2017) involves both a complex data analysis as well as a non-standard form of data. Here, it serves as a large-scale motivating example, to help us study the impact of decision-making on the statistical and computational reproducibility of a quantitative result. We first present a method for data pre-processing and assess its impact on bullet land engraved area (LEA) matching accuracy. This is followed by a large user variability study of the high-resolution bullet LEA scanning process and development of an extended Gauge Repeatability and Reproducibility framework. Finally, we propose a framework for adaptive computational reproducibility in a changing landscape of R packages and present software tools to facilitate the study and management of computational reproducibility in R."
+  },
+  {
+    "objectID": "products/2020/01_dissertation.html#about-this-product",
+    "href": "products/2020/01_dissertation.html#about-this-product",
+    "title": "A framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison",
+    "section": "About this product",
+    "text": "About this product\nRead my dissertation (DOI)\nSee the slides from my public defense"
+  },
+  {
+    "objectID": "products/2020/02_sdss-2020.html",
+    "href": "products/2020/02_sdss-2020.html",
+    "title": "A Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape",
+    "section": "",
+    "text": "This work was jointly authored by myself and Dr. Heike Hofmann."
+  },
+  {
+    "objectID": "products/2020/02_sdss-2020.html#abstract",
+    "href": "products/2020/02_sdss-2020.html#abstract",
+    "title": "A Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape",
+    "section": "Abstract",
+    "text": "Abstract\nAchieving computational reproducibility within data science pipelines is a dynamic, shifting task. Package development for data science is happening at a very rapid speed, both in R and python, the two main scripting languages for Data Science. This means, that an implemented data pipeline might produce different results due to a change in the underlying dependencies. Focusing on the R software we propose a paradigm for managing computational reproducibility that assists users in not only identifying when a package’s functionality has changed, but also identifies whether that change will impact the results of a user’s project code."
+  },
+  {
+    "objectID": "products/2020/02_sdss-2020.html#about-this-product",
+    "href": "products/2020/02_sdss-2020.html#about-this-product",
+    "title": "A Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape",
+    "section": "About this product",
+    "text": "About this product\nThis is an abbreviated version of one of my dissertation chapters on computational reproducibility. This work was presented at the Symposium on Data Science and Statistics (SDSS) in 2020.\nSee the slides from my presentation"
+  },
+  {
+    "objectID": "toolbox.html",
+    "href": "toolbox.html",
+    "title": "Kiegan Rice",
+    "section": "",
+    "text": "Read more about the set of tools I use. My home base is R, but I leverage a lot of HTML, CSS, and JavaScript along the way."
+  },
+  {
+    "objectID": "toolbox.html#wrangle",
+    "href": "toolbox.html#wrangle",
+    "title": "Kiegan Rice",
+    "section": "wrangle",
+    "text": "wrangle\nData wrangling takes time; often at least half the energy spent on an interactive tool build is on data preparation. Tools from the tidyverse make it easier. I use packages like tidyr, dplyr, stringr and purrr to get data into tidy and usable formats. Making sure data are formatted properly for display is key; lubridate and glue are a go-to for me for that purpose.\nClick on a hex to go to the package website. \n      \n Other packages and tools I use:  openxlsx"
+  },
+  {
+    "objectID": "toolbox.html#visualize",
+    "href": "toolbox.html#visualize",
+    "title": "Kiegan Rice",
+    "section": "visualize",
+    "text": "visualize\nI primarly use the ggplot2 package for data visualization and related extensions for interactivity and animation. Currently, I primarily use ggiraph for interactive graphics. I also use the D3 JavaScript library and incorporate D3-based graphics in R-based tools using the r2d3 package.\nClick on a hex to go to the package website. \n    \n Other packages and tools I use:  reactable\nDT\ncowplot\nD3\nplotly\ngganimate"
+  },
+  {
+    "objectID": "toolbox.html#build",
+    "href": "toolbox.html#build",
+    "title": "Kiegan Rice",
+    "section": "build",
+    "text": "build\nHow you design and build a data tool or website is an important part of setting the tone for the look, feel, and user experience. I build interactive applications in shiny for R and websites using quarto. I leverage HTML, CSS, and JavaScript libraries to style the site and add additional interactive features. I have also used parameterized rmarkdown reports to generate custom reports based on user interaction in Shiny applications.\nClick on a hex to go to the package website. \n    \n Other packages and tools I use:  bsplus\nshinyWidgets\ngdtools\nshinydashboard\nshinycssloaders\nshinyjs"
+  },
+  {
+    "objectID": "toolbox.html#manage",
+    "href": "toolbox.html#manage",
+    "title": "Kiegan Rice",
+    "section": "manage",
+    "text": "manage\nPackage management and deployment is a key part of the application building process. I utilize package management tools like renv and deployment and monitoring tools like connectapi as part of the development process. Web-based content that I build is deployed using a Posit Connect server. The metathis package makes it easy to define meta tags and set header elements for a site. I use git-based workflows for version control and collaboration.\nClick on a hex to learn more about the tool."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kiegan Rice",
+    "section": "",
+    "text": "Hi, I’m Kiegan!\n\nI’m a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy.\n\n\nI am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, public health, and health care. You can find out more about what I do on NORC’s website.\n\n\n\nI earned my Ph.D. in Statistics from Iowa State University in 2020, working with Dr. Heike Hofmann and Dr. Ulrike Genschel. My primary research topic was computational and statistical reproducibility of data science pipelines. I previously earned an M.S. in Statistics from Iowa State University and a B.A. in Mathematics and Spanish from St. Olaf College.\n\n\n\n\n\n\nBringing data to the public in a user-friendly way is an important part of modern data communication. I use a mix of tools (with R as my home base) to create interactive graphics and websites exploring social science and public policy data.\n  Browse my full portfolio →     Learn more about the tools I use →    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n \n\n\n\n\n\nAmerican Statistical Association\nmember since 2018\n ASA Section on Statistical Graphics\nSecretary/Treasurer, 2022-2024\n Data Visualization Society\nmember since 2021\n\n\n\n\n\n\nUnderstanding how users view, interact with, and interpret data visualizations is a key part of effective data communication. One of my key research areas is studying how elements of data visualization design impact a viewer’s perception and interpretation of a chart or graphic.\nEnsuring reproducibility in scientific research is critical to building a robust, reliable, and trustworthy body of scientific literature. Whenever code is applied to data to complete a task, it is important to document the steps taken, how and why those steps were taken, and the environment in which those steps were taken. I study reproducibility over time in research that uses open-source software, primarily R.\n  See my full list of presentations and publications →    \n\n\n\n\n\n\n\n\nPresentation with Weihuang Wong at rstudio::conf(2022)\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation at SDSS 2020\n\n\n\n2020\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n  If you scrolled this far, don’t forget to work-life balance!"
+  },
+  {
+    "objectID": "products.html",
+    "href": "products.html",
+    "title": "Kiegan Rice",
+    "section": "",
+    "text": "How to be a pollinatoR\n\n\nPresentation with Weihuang Wong at rstudio::conf(2022)\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape\n\n\nPresentation at SDSS 2020\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison\n\n\nDissertation submitted for completion of Ph.D. in Statistics at Iowa State University\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#about-this-project",
+    "href": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#about-this-project",
+    "title": "Massachusetts Lawyers Dashboard",
+    "section": "About this project",
+    "text": "About this project\nThis site is an data explorer for data from the Massachusetts Supreme Judicial Court Demographic and Law Practice Survey about lawyers’ demographic and employment/professional characteristics. There are six different pages with ways to explore the data:\n\nExplore overall demographic, employment, and professional characteristics for all lawyers and within groups,\nView demographic, employment, and professional characteristics by Bar Association membership,\nExplore the demographic, employment, and professional makeup of lawyers who live or work in a specific county,\nSee the prevalence of lawyers with certain demographic and employment characteristics by county,\nCompare characteristics over time,\nCompare the population of lawyers to the general Massachusetts population.\n\n  Visit the Massachusetts Lawyers Demographic and Law Practice Data site →"
+  },
+  {
+    "objectID": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#who-was-involved",
+    "href": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#who-was-involved",
+    "title": "Massachusetts Lawyers Dashboard",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis data explorer was built by me and Jared Sawyer. Nola du Toit designed the entire site and user experience. Jared took the lead on data preparation as well as customizing the table code for the ‘Trends Over Time’ and ‘Compare to Massachusetts Population’ tabs.\n\nMy role\nI developed the interactive table and chart code, built the site and site navigation, defined and styled the interactive filters and dropdown menus, and implemented all the site styling components. This was the first project where I heavily utilized the ggiraph package for interactive visuals in a site, which is an amazing package!"
+  },
+  {
+    "objectID": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#tools-used",
+    "href": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#tools-used",
+    "title": "Massachusetts Lawyers Dashboard",
+    "section": "Tools used",
+    "text": "Tools used\nThe whole site is a shiny application. I used ggiraph to build all of the interactive bar charts and maps, and reactable to build the interactive tables. This was one of the projects where I first heavily used glue to build out the language for tooltips/hover-overs on the interactive tables and charts.\nLearn more about some of the key tools from this project by clicking on the hex."
+  },
+  {
+    "objectID": "portfolio/04_sdr-interactives/04_sdr-interactives.html#about-this-project",
+    "href": "portfolio/04_sdr-interactives/04_sdr-interactives.html#about-this-project",
+    "title": "SDR Data in Action",
+    "section": "About this project",
+    "text": "About this project\nThis project developed a series of interactive visuals to highlight the Survey of Doctorate Recipients (SDR) data and its utility on the SDR survey website. These visuals highlight the breadth and depth of the data and show viewers the importance of collecting SDR data and how it can be used to gain insight about the population of doctorate recipients in the U.S.\nThere are four different visuals:\n\nBubble chart exploring the number of doctorates in each degree field with a paired table showing employment sectors for that field,\nBar chart showing the sex breakdown of doctorate holders in different occupations,\nParallel sets diagram showing movement patterns in and out of the workforce,\nMap and bar showing where doctorate holders live and work around the world.\n\n  See the Data in Action charts on the SDR site →"
+  },
+  {
+    "objectID": "portfolio/04_sdr-interactives/04_sdr-interactives.html#who-was-involved",
+    "href": "portfolio/04_sdr-interactives/04_sdr-interactives.html#who-was-involved",
+    "title": "SDR Data in Action",
+    "section": "Who was involved",
+    "text": "Who was involved\nThese ‘Data in Action’ visuals were a collaboration between me, Nola du Toit, and Lance Selfa. Two of the graphics were built by me in R-based tools, while two of them were built by Lance and Nola in Tableau.\n\nMy role\nI programmed both the bubble chart and parallel sets diagram, after working with Lance and Nola to design them."
+  },
+  {
+    "objectID": "portfolio/04_sdr-interactives/04_sdr-interactives.html#tools-used",
+    "href": "portfolio/04_sdr-interactives/04_sdr-interactives.html#tools-used",
+    "title": "SDR Data in Action",
+    "section": "Tools used",
+    "text": "Tools used\nThese interactive charts displayed and laid out as HTML pages using rmarkdown. The bubble chart was built using ggiraph and the tables on the right are ggiraph hover-overs built using the gt package. The parallel sets diagram was built in D3 and included in the page using r2d3.\nLearn more about some of the key tools from this project by clicking on the hex."
+  },
+  {
+    "objectID": "portfolio/03_crime-fear-police/03_crime-fear-police.html#about-this-project",
+    "href": "portfolio/03_crime-fear-police/03_crime-fear-police.html#about-this-project",
+    "title": "Crime, Fear, and Police Contact",
+    "section": "About this project",
+    "text": "About this project\nThis site presents a series of tools to explore data on crime, fear, and police contact in the U.S. This site was a submission for the 2023 Joint Statistical Meetings (JSM) Data Challenge, which required usage of National Crime Victimization Survey (NCVS) data. Our team created a site which presents data from three different sources: NCVS, the General Social Survey (GSS), and the Police-Public Contact Survey (PPCS). Our goal was to allow people to explore the relationships between experiencing crime (NCVS), perceptions of crime (GSS), and interactions with law enforcement (PPCS).\nThere are four different ways to explore the data:\n\nRead an overview story with interactive visuals about how perceptions of crime and crime victimization differ,\nExplore NCVS, GSS, and PPCS measures for a specific subgroup of interest,\nCompare groups’ experiences by race/ethnicity, age, sex, and region of the country,\nExplore synthetic data which combines measures from the three surveys into one set of responses.\n\n  Visit the Crime, Fear, and Police Contact site →"
+  },
+  {
+    "objectID": "portfolio/03_crime-fear-police/03_crime-fear-police.html#who-was-involved",
+    "href": "portfolio/03_crime-fear-police/03_crime-fear-police.html#who-was-involved",
+    "title": "Crime, Fear, and Police Contact",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis data explorer was a collaboration between four NORC staff: me, Taylor Wing, Henry Beimers, and Anthony Washburn. Anthony was our methodological lead, determining research questions to be answered on each page and providing guidance on data labels, data processing, and interpretation. He lead the preparation of the data for the entire application. Taylor designed the ‘Compare Groups’ page, and both Taylor and Henry contributed drop-down/filter and visualization code to the site.\n\nMy role\nI designed the site landing page, navigation, user experience, and three of the four visualization tabs. I built the site styling components and navigation, two of the visualization tabs, and the Home and About pages."
+  },
+  {
+    "objectID": "portfolio/03_crime-fear-police/03_crime-fear-police.html#tools-used",
+    "href": "portfolio/03_crime-fear-police/03_crime-fear-police.html#tools-used",
+    "title": "Crime, Fear, and Police Contact",
+    "section": "Tools used",
+    "text": "Tools used\nThe whole site is a shiny application. The team used ggiraph to build all of the interactive charts. This was another project where we heavily used glue to build out the language for tooltips/hover-overs on the interactive charts.\nLearn more about some of the key tools from this project by clicking on the hex."
+  },
+  {
+    "objectID": "portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html#about-this-project",
+    "href": "portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html#about-this-project",
+    "title": "NEAS Pathways Tool",
+    "section": "About this project",
+    "text": "About this project\nThis project, an interactive data tool with data from the National Education and Attainment Survey (NEAS), allows users to explore NEAS data along three main topics. Visitors can:\n\nView trajectories of subgroups of U.S. adults through milestones in educational attainment and employment,\nCompare career and educational attainment outcomes across demographic groups,\nExplore the demographic distributions of those who obtain post-secondary certificates and those who do not.\n\n  Visit the NEAS Pathways Tool site →"
+  },
+  {
+    "objectID": "portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html#who-was-involved",
+    "href": "portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html#who-was-involved",
+    "title": "NEAS Pathways Tool",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis project was built by me and the incredible Will Bonnell and Shalima Zalsha, with oversight and design feedback by Nola du Toit.\nWill made the really cool ‘game board’ on the home page and did a lot of the site styling, including the characteristics selector on the ‘Trajectories’ page, which was one of my first intros to shinyjs. Shalima lead the development of the beautiful plotly-based graphics on the ‘Certificate Attainment’ page.\n\nMy role\nWill and I worked the parallel sets diagrams together, and I did a lot of the site styling and layout. This was one of my first projects where I had to start learning CSS and how to style a Shiny site; I learned a ton throughout the process."
+  },
+  {
+    "objectID": "portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html#tools-used",
+    "href": "portfolio/00_neas-pathways-tool/00_neas-pathways-tool.html#tools-used",
+    "title": "NEAS Pathways Tool",
+    "section": "Tools used",
+    "text": "Tools used\nThe whole site is a shiny application. We used r2d3 for the D3-based parallel sets diagrams.\nLearn more about some of the key tools from this project by clicking on the hex."
+  },
+  {
+    "objectID": "portfolio/01_mcbs-interactives/01_mcbs-interactives.html#about-this-project",
+    "href": "portfolio/01_mcbs-interactives/01_mcbs-interactives.html#about-this-project",
+    "title": "MCBS Interactives",
+    "section": "About this project",
+    "text": "About this project\nThe MCBS Interactives are a site to explore survey estimates from multiples files from the Medicare Current Beneficiary Survey (MCBS). Users can view survey estimates from the general MCBS Survey Public Use File (PUF), the Covid-19 supplement file, and the Financial Well-Being file.\nFor a given survey topic, users can learn more about responses to a question overall (on the left), as well as select a question of interest and see estimates broken out by different demographic subgroups (on the right).\n  Explore the MCBS Interactives →"
+  },
+  {
+    "objectID": "portfolio/01_mcbs-interactives/01_mcbs-interactives.html#who-was-involved",
+    "href": "portfolio/01_mcbs-interactives/01_mcbs-interactives.html#who-was-involved",
+    "title": "MCBS Interactives",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis project was built by Peter Herman, Patrick Coyle, and me, with oversight and design feedback by Nola du Toit.\nPeter and Patrick lead the D3 development for the site, and I learned a ton from them throughout the process. Patrick is the lead on maintaining and updating the MCBS Interactives over time.\n\nMy role\nI assisted Peter and Patrick in building out the initial D3 bar and dot plots, then later lead the redesign of the selectors and tabs within the Shiny application. This was my very first D3 project!"
+  },
+  {
+    "objectID": "portfolio/01_mcbs-interactives/01_mcbs-interactives.html#tools-used",
+    "href": "portfolio/01_mcbs-interactives/01_mcbs-interactives.html#tools-used",
+    "title": "MCBS Interactives",
+    "section": "Tools used",
+    "text": "Tools used\nThe shell site for MCBS Interactives was built by external partners who completed the web design. The interactive charts themselves as well as some of the selectors and tabs are a shiny application embedded into the larger site. We used r2d3 for the D3-based bar and dot plots, and to drive the interaction between the bars and dots.\nLearn more about some of the key tools from this project by clicking on the hex."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Kiegan Rice",
+    "section": "",
+    "text": "SDR Data in Action\n\n\nInteractive visuals highlighting the Survey of Doctorate Recipients data in action on the survey website.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrime, Fear, and Police Contact\n\n\nTools to explore the intersection of crime, perceived crime, and police contact. Submission for the 2023 JSM Data Challenge.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMassachusetts Lawyers Dashboard\n\n\nInteractive data tools for Massachusetts Lawyer Census.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMCBS Interactives\n\n\nInteractive data explorer for Medicare Current Beneficiary Survey (MCBS) Public Use File and Covid-19 supplement.\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEAS Pathways Tool\n\n\nInteractive data tool for National Education and Attainment Survey (NEAS).\n\n\n\n\n\n\n2021\n\n\n\n\n\n\n\n\nNo matching items"
+  }
+]

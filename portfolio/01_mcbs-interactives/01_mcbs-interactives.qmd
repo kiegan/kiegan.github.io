@@ -1,0 +1,44 @@
+---
+title: "MCBS Interactives"
+image: mcbs-interactives-main.jpg
+description: "Interactive data explorer for Medicare Current Beneficiary Survey (MCBS) Public Use File and Covid-19 supplement."
+date: "01-01-2022"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+
+![](mcbs-interactives-main.jpg){width="20rem" style="border: 1px solid black; border-radius: 5px;"}
+
+
+## About this project
+
+The MCBS Interactives are a site to explore survey estimates from multiples files from the Medicare Current Beneficiary Survey (MCBS). Users can view survey estimates from the general MCBS Survey Public Use File (PUF), the Covid-19 supplement file, and the Financial Well-Being file. 
+
+For a given survey topic, users can learn more about responses to a question overall (on the left), as well as select a question of interest and see estimates broken out by different demographic subgroups (on the right). 
+
+
+<a href="https://mcbs-interactives.norc.org" target="_blank">
+<button class="btn btn-success"> Explore the MCBS Interactives &#8594; </button>
+</a>
+<br>
+
+
+## Who was involved
+
+This project was built by Peter Herman, Patrick Coyle, and me, with oversight and design feedback by [Nola du Toit](https://www.norc.org/about/experts/nola-du-toit.html){target="_blank"}.
+
+Peter and Patrick lead the D3 development for the site, and I learned a ton from them throughout the process. Patrick is the lead on maintaining and updating the MCBS Interactives over time. 
+
+#### My role
+
+I assisted Peter and Patrick in building out the initial D3 bar and dot plots, then later lead the redesign of the selectors and tabs within the Shiny application. This was my very first D3 project!
+
+## Tools used
+
+The shell site for MCBS Interactives was built by external partners who completed the web design. The interactive charts themselves as well as some of the selectors and tabs are a `shiny` application embedded into the larger site. We used `r2d3` for the D3-based bar and dot plots, and to drive the interaction between the bars and dots. 
+
+<i>Learn more about some of the key tools from this project by clicking on the hex.</i>
+
+[![](../../www/tools-shiny.png){.hex-class-small}](https://shiny.posit.co/){target="_blank"} [![](../../www/tools-r2d3.png){.hex-class-small}](https://rstudio.github.io/r2d3/){target="_blank"}

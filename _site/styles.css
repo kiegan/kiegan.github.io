@@ -1,0 +1,210 @@
+/* css styles */
+
+
+/* colors */
+:root {
+  --cyan: #CCFFFF;
+  --grey-300: #CCCCCC;
+  --grey-100: #efefef;
+  --grey-900: #333333;
+  --teal: #99CCCC;
+  --med-teal: #669999;
+  --lt-green: #99CC99;
+  --green: #336633;
+  --lt-tan: #FFCC99;
+  --tan: #CC9966;
+}
+
+
+
+#quarto-content>*{
+  padding-top: 0px !important;
+}
+
+body {
+ background-color: var(--grey-300); 
+ color: black;
+}
+
+main {
+  margin-top: 0px;
+}
+
+/* fonts */
+
+h2, .h2 {
+  border-bottom: 0px;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 0.5em;
+}
+
+h3, .h3 {
+  font-weight: 300;
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+}
+
+.blockquote {
+  color: black;
+}
+
+/* navbar */
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  padding-top: 2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid black;
+}
+
+.nav-link {
+  padding-bottom: 3px;
+  margin-left: 5px;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: black !important;
+  border-bottom: black 3px;
+  border-bottom-style: inset;
+  /*text-decoration: black dotted underline 3px; */
+}
+
+/* welcome page styles */
+
+.welcome-centered {
+  background-color: var(--grey-300);
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.welcome-portfolio-background {
+  padding: 2rem;
+  background-color: var(--med-teal);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.welcome-products-background {
+  padding: 2rem;
+  background-color: var(--lt-green);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+
+.welcome-toolbox-background {
+  padding: 2rem;
+  background-color: var(--teal);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.toolbox-section {
+  border-bottom: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+}
+
+.toolbox-section2 {
+  background-color: var(--teal);
+  border-bottom: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* listing stuff */
+.card {
+  border: 1px solid black;
+ background: var(--grey-100); 
+}
+
+.card-body {
+  border-top: 4px solid black;
+
+}
+
+
+.card:hover {
+  outline: 2px solid black;
+}
+
+.card-img-top:hover {
+  opacity: 0.7;
+}
+
+.quarto-title-banner {
+  background: var(--grey-100);
+  padding: 2rem;
+  border-bottom: 1px solid black;
+}
+
+/* button */
+.btn-secondary {
+  background-color: var(--med-teal);
+  color: black;
+  border: 1px solid black;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-secondary:hover {
+  background-color: var(--grey-100);
+  color: black;
+  border: 1px solid black;
+  outline: 1px solid black;
+}
+
+
+.btn-primary {
+  background-color: var(--lt-green);
+  color: black;
+  border: 1px solid black;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--grey-100);
+  outline: 1px solid black;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-success {
+  background-color: var(--grey-300);
+  color: black;
+  border: 1px solid black;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-success:hover, .btn-success:active {
+  background-color: var(--grey-100);
+  outline: 1px solid black;
+  border: 1px solid black;
+  color: black;
+}
+
+.hex-class {
+  width: 10em;
+  display: inline;
+  
+}
+.hex-class:hover {
+  opacity: 0.5;
+}
+
+.hex-class-small {
+    width: 5em;
+  display: inline;
+}
+.hex-class-small:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,137 @@
+---
+listing:
+  - id: home-posts
+    contents: portfolio
+    type: grid
+    max-items: 3
+    sort: "date desc"
+    image-height: '10rem'
+    date-format: 'YYYY'
+    fields: [image]
+  - id: home-products
+    contents: products
+    type: grid
+    grid-columns: 2
+    max-items: 2
+    sort: "date desc"
+    date-format: 'YYYY'
+    fields: [title, description, date]
+---
+
+:::: {.column-screen}
+
+::: {.welcome-centered}
+
+::: {.column-page}
+
+# Welcome.
+
+Hi, I'm Kiegan! 
+
+![](www/kiegan-headshot-hex.png){fig-alt='Photo of Kiegan in the shape of a hexagon.' width='20em' }
+
+I'm a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy. 
+
+
+### Current Role
+
+I am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, public health, and health care. You can find out more about what I do [on NORC's website](https://norc.org/about/experts/kiegan-rice.html){target='_blank'}.
+
+### Education 
+
+I earned my Ph.D. in Statistics from Iowa State University in 2020, working with [Dr. Heike Hofmann](https://github.com/heike){target='_blank'} and [Dr. Ulrike Genschel](http://ugenschel.github.io/){target='_blank'}. My primary research topic was computational and statistical reproducibility of data science pipelines. I previously earned an M.S. in Statistics from Iowa State University and a B.A. in Mathematics and Spanish from St. Olaf College. 
+
+
+
+:::
+
+:::
+
+
+::: {.welcome-portfolio-background}
+
+::: {.column-page}
+## I build tools to help people explore data and social science research.
+
+Bringing data to the public in a user-friendly way is an important part of modern data communication. I use a mix of tools (with R as my home base) to create interactive graphics and websites exploring social science and public policy data. 
+
+
+<a href="portfolio.html">
+<button class="btn btn-secondary"> Browse my full portfolio &#8594; </button>
+</a>
+<a href="toolbox.html">
+<button class="btn btn-secondary"> Learn more about the tools I use &#8594; </button>
+</a>
+<br>
+<br>
+
+
+
+::: {#home-posts}
+:::
+
+<br>
+<br>
+
+:::
+:::
+
+::: {.welcome-centered}
+
+::: {.column-page}
+
+
+
+### Professional Associations  
+
+<b>American Statistical Association</b>  
+member since 2018  
+<br>
+<b>ASA Section on Statistical Graphics</b>  
+Secretary/Treasurer, 2022-2024  
+<br>
+<b>Data Visualization Society</b>  
+member since 2021    
+
+<br>
+
+
+:::
+:::
+
+
+
+::: {.welcome-products-background}
+
+::: {.column-page}
+## I study data visualization design and reproducibility in scientific research. 
+
+Understanding how users view, interact with, and interpret data visualizations is a key part of effective data communication. One of my key research areas is studying how elements of data visualization design impact a viewer's perception and interpretation of a chart or graphic. 
+
+Ensuring reproducibility in scientific research is critical to building a robust, reliable, and trustworthy body of scientific literature. Whenever code is applied to data to complete a task, it is important to document the steps taken, how and why those steps were taken, and the environment in which those steps were taken. I study reproducibility over time in research that uses open-source software, primarily R. 
+
+<a href="portfolio.html">
+<button class="btn btn-primary"> See my full list of presentations and publications &#8594; </button>
+</a>
+<br>
+<br>
+
+::: {#home-products}
+:::
+
+:::
+:::
+
+
+::: {.welcome-centered}
+
+::: {.column-page}
+<br>
+<br>
+If you scrolled this far, don't forget to work-life balance!
+:::
+:::
+
+:::: 
+
+

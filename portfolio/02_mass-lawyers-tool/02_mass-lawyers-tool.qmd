@@ -1,0 +1,55 @@
+---
+title: "Massachusetts Lawyers Dashboard"
+image: mass-lawyers-main.jpg
+description: "Interactive data tools for Massachusetts Lawyer Census."
+date: "04-01-2023"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+
+![](mass-lawyers-main.jpg){width="20rem" style="border: 1px solid black; border-radius: 5px;"}
+
+
+## About this project
+
+This site is an data explorer for data from the Massachusetts Supreme Judicial Court Demographic and Law Practice Survey about lawyers' demographic and employment/professional characteristics. There are six different pages with ways to explore the data:
+
+1.  Explore overall demographic, employment, and professional characteristics <b>for all lawyers and within groups</b>,
+
+2.  View demographic, employment, and professional characteristics <b>by Bar Association membership</b>,
+
+3.  Explore the demographic, employment, and professional makeup of lawyers who <b>live or work in a specific county</b>, 
+
+4.  See the prevalence of lawyers with certain demographic and employment characteristics <b>by county</b>, 
+
+5.  Compare characteristics <b>over time</b>,
+
+6.  Compare the population of lawyers to the <b>general Massachusetts population</b>.
+
+
+<a href="https://masslawyers.norc.org" target="_blank">
+<button class="btn btn-success"> Visit the Massachusetts Lawyers Demographic and Law Practice Data site &#8594; </button>
+</a>
+<br>
+
+
+## Who was involved
+
+This data explorer was built by me and Jared Sawyer. [Nola du Toit](https://www.norc.org/about/experts/nola-du-toit.html){target="_blank"} designed the entire site and user experience. Jared took the lead on data preparation as well as customizing the table code for the 'Trends Over Time' and 'Compare to Massachusetts Population' tabs. 
+
+
+#### My role
+
+I developed the interactive table and chart code, built the site and site navigation, defined and styled the interactive filters and dropdown menus, and implemented all the site styling components. This was the first project where I heavily utilized the `ggiraph` package for interactive visuals in a site, which is an amazing package! 
+
+## Tools used
+
+The whole site is a `shiny` application. I used `ggiraph` to build all of the interactive bar charts and maps, and `reactable` to build the interactive tables. This was one of the projects where I first heavily used `glue` to build out the language for tooltips/hover-overs on the interactive tables and charts. 
+
+<i>Learn more about some of the key tools from this project by clicking on the hex.</i>
+
+[![](../../www/tools-shiny.png){.hex-class-small}](https://shiny.posit.co/){target="_blank"} [![](../../www/tools-ggiraph.png){class='hex-class-small'}](http://davidgohel.github.io/ggiraph/){target='_blank'}
+[![](../../www/tools-glue.png){class='hex-class-small'}](https://glue.tidyverse.org/){target='_blank'}
+
