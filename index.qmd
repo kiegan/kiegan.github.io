@@ -30,7 +30,10 @@ Hi, I'm Kiegan!
 
 ![](www/kiegan-headshot-hex.png){fig-alt='Photo of Kiegan in the shape of a hexagon.' width='20em' }
 
-I'm a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy. 
+I'm a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy.  
+
+
+On this site, I share a bit about the work I do and how I do it: applications and websites I've built, publications and presentations I've authored, and the tools I use to get things done. This is my personal website and the content here does not reflect the viewpoint of my employer or project clients.  
 
 
 ### Current Role
