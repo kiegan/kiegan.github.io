@@ -18,7 +18,7 @@ R users are part of data ecosystems comprising both statistical and non-statisti
 
 ## About this product
 
-This work was presented at [rstudio::conf(2022)](https://posit.co/blog/talks-and-workshops-from-rstudio-conf-2022/){target='_blank'} in 2020. 
+This work was presented at [rstudio::conf(2022)](https://posit.co/blog/talks-and-workshops-from-rstudio-conf-2022/){target='_blank'}. 
 
 [Watch the recording of our presentation](https://www.rstudio.com/conference/2022/talks/how-to-be-pollinator/){target="_blank"}
 

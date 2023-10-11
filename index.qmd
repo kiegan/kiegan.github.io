@@ -113,7 +113,7 @@ Understanding how users view, interact with, and interpret data visualizations i
 
 Ensuring reproducibility in scientific research is critical to building a robust, reliable, and trustworthy body of scientific literature. Whenever code is applied to data to complete a task, it is important to document the steps taken, how and why those steps were taken, and the environment in which those steps were taken. I study reproducibility over time in research that uses open-source software, primarily R. 
 
-<a href="portfolio.html">
+<a href="products.html">
 <button class="btn btn-primary"> See my full list of presentations and publications &#8594; </button>
 </a>
 <br>
