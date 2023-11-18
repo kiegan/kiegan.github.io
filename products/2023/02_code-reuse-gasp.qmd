@@ -1,0 +1,28 @@
+---
+title: "UI Patterns for Code Reuse"
+image: "02-code-reuse-gasp-main.png"
+description: "Presentation at GASP 2023"
+date: "06-15-2023"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+## Who was involved
+
+This work was jointly authored with [Weihuang Wong](https://norc.org/about/experts/weihuang-wong.html){target='_blank'}. 
+
+## Abstract
+
+Code reuse is crucial if analysts want to implement a data processing and analytic pipeline in a consistent way across datasets, or if analysts want to implement a particular feature (e.g. small cell suppression) in an analytic product while leaving all other elements unchanged. Recent discussions of code reuse, such as a CNSTAT report on transparency in federal statistics, focus with good reason on tools that support code portability and sharing like version control systems or software that reproduce computational environments.  
+
+Our talk, by contrast, focuses on a more prosaic aspect of code reuse: how should code itself be written to facilitate reuse? How can we develop a program so that other analysts know how to configure it to get their desired output? We propose that programmers developing programs for reuse should see their programs less as scripts, and more as applications that complete a specific task. In some cases, programs can in fact be developed as simple applications, such as a Shiny app. In other cases, employing an app framework as a lens can help programmers to think about the usability of their programs and bring in UI design patterns to facilitate reapplication of code by others. We discuss various solutions to facilitate code reuse at the program-level, such as parameterized scripts, configuration files, settings panes, dialog boxes, and setup wizards.
+
+## About this product
+
+This work was presented at Government Advances in Statistical Programming (GASP) 2023. 
+
+[Watch the recording of our presentation](https://youtu.be/AE2V83ZDhdY?list=PL6JASucQFChku5Y0wv-dXjXDcBmKhfvB6&t=3097){target="_blank"}
+
+
+

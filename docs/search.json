@@ -21,6 +21,48 @@
     "text": "About this product\nThis work was presented at rstudio::conf(2022).\nWatch the recording of our presentation\nSee the slides from our presentation"
   },
   {
+    "objectID": "products/2023/02_code-reuse-gasp.html",
+    "href": "products/2023/02_code-reuse-gasp.html",
+    "title": "UI Patterns for Code Reuse",
+    "section": "",
+    "text": "This work was jointly authored with Weihuang Wong."
+  },
+  {
+    "objectID": "products/2023/02_code-reuse-gasp.html#abstract",
+    "href": "products/2023/02_code-reuse-gasp.html#abstract",
+    "title": "UI Patterns for Code Reuse",
+    "section": "Abstract",
+    "text": "Abstract\nCode reuse is crucial if analysts want to implement a data processing and analytic pipeline in a consistent way across datasets, or if analysts want to implement a particular feature (e.g. small cell suppression) in an analytic product while leaving all other elements unchanged. Recent discussions of code reuse, such as a CNSTAT report on transparency in federal statistics, focus with good reason on tools that support code portability and sharing like version control systems or software that reproduce computational environments.\nOur talk, by contrast, focuses on a more prosaic aspect of code reuse: how should code itself be written to facilitate reuse? How can we develop a program so that other analysts know how to configure it to get their desired output? We propose that programmers developing programs for reuse should see their programs less as scripts, and more as applications that complete a specific task. In some cases, programs can in fact be developed as simple applications, such as a Shiny app. In other cases, employing an app framework as a lens can help programmers to think about the usability of their programs and bring in UI design patterns to facilitate reapplication of code by others. We discuss various solutions to facilitate code reuse at the program-level, such as parameterized scripts, configuration files, settings panes, dialog boxes, and setup wizards."
+  },
+  {
+    "objectID": "products/2023/02_code-reuse-gasp.html#about-this-product",
+    "href": "products/2023/02_code-reuse-gasp.html#about-this-product",
+    "title": "UI Patterns for Code Reuse",
+    "section": "About this product",
+    "text": "About this product\nThis work was presented at Government Advances in Statistical Programming (GASP) 2023.\nWatch the recording of our presentation"
+  },
+  {
+    "objectID": "products/2023/01_testing-charts-sdss.html",
+    "href": "products/2023/01_testing-charts-sdss.html",
+    "title": "Testing Statistical Charts for Accuracy and Interpretation",
+    "section": "",
+    "text": "This work was jointly authored with Heike Hofmann, Nola du Toit, and Ed Mulrow."
+  },
+  {
+    "objectID": "products/2023/01_testing-charts-sdss.html#abstract",
+    "href": "products/2023/01_testing-charts-sdss.html#abstract",
+    "title": "Testing Statistical Charts for Accuracy and Interpretation",
+    "section": "Abstract",
+    "text": "Abstract\nThe use of visuals is a key component in scientific communication, and decisions about the design of a data visualization should be informed by knowledge of what best supports the audience in understanding the data and conclusions correctly. We expand on the foundations of work in graphical perception (Cleveland and McGill 1986, Lu et al. 2022) and employ a large, nationally-representative, probability-based panel of survey respondents to test perception in statistical charts. Using AmeriSpeak’s Omnibus panel, we conducted a series of visual tests. The large sample size, with its additional power, allows us to reproduce earlier findings and refine tests by varying structural and aesthetic elements used in the displayed image. Structural differences included whether the elements were aligned along a common baseline or not, as well as the orientation of the chart as a horizontal or vertical stacked bar chart. Beyond these more standard testing situations, we can also investigate the role aesthetic differences play, such as the color scheme, use of grid lines, and the role of context shown in the chart. Measured outcomes beyond accuracy are evaluation speed and self-reported certainty in one’s response. Not surprisingly, we find that structural and aesthetic choices affect all outcome measures – sometimes not necessarily in the way we initially expected. For example, panelists’ certainty is negatively correlated to correctness – most likely due to overlooking the difficulty of the task. However, our results allow us to go even beyond that: we find that some design choices change the way that respondents interact with a chart. Our findings provide experimentally validated, actionable guidance for data visualization practitioners to employ in their work."
+  },
+  {
+    "objectID": "products/2023/01_testing-charts-sdss.html#about-this-product",
+    "href": "products/2023/01_testing-charts-sdss.html#about-this-product",
+    "title": "Testing Statistical Charts for Accuracy and Interpretation",
+    "section": "About this product",
+    "text": "About this product\nThis work was presented at the Symposium on Data Science and Statistics 2023."
+  },
+  {
     "objectID": "products/2020/01_dissertation.html",
     "href": "products/2020/01_dissertation.html",
     "title": "A framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison",
@@ -102,14 +144,14 @@
     "href": "index.html",
     "title": "Kiegan Rice",
     "section": "",
-    "text": "Hi, I’m Kiegan!\n\nI’m a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy.\nOn this site, I share a bit about the work I do and how I do it: applications and websites I’ve built, publications and presentations I’ve authored, and the tools I use to get things done. This is my personal website and the content here does not reflect the viewpoint of my employer or project clients.\n\n\nI am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, public health, and health care. You can find out more about what I do on NORC’s website.\n\n\n\nI earned my Ph.D. in Statistics from Iowa State University in 2020, working with Dr. Heike Hofmann and Dr. Ulrike Genschel. My primary research topic was computational and statistical reproducibility of data science pipelines. I previously earned an M.S. in Statistics from Iowa State University and a B.A. in Mathematics and Spanish from St. Olaf College.\n\n\n\n\n\n\nBringing data to the public in a user-friendly way is an important part of modern data communication. I use a mix of tools (with R as my home base) to create interactive graphics and websites exploring social science and public policy data.\n  Browse my full portfolio →     Learn more about the tools I use →    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n \n\n\n\n\n\nAmerican Statistical Association\nmember since 2018\n ASA Section on Statistical Graphics\nSecretary/Treasurer, 2022-2024\n Data Visualization Society\nmember since 2021\n\n\n\n\n\n\nUnderstanding how users view, interact with, and interpret data visualizations is a key part of effective data communication. One of my key research areas is studying how elements of data visualization design impact a viewer’s perception and interpretation of a chart or graphic.\nEnsuring reproducibility in scientific research is critical to building a robust, reliable, and trustworthy body of scientific literature. Whenever code is applied to data to complete a task, it is important to document the steps taken, how and why those steps were taken, and the environment in which those steps were taken. I study reproducibility over time in research that uses open-source software, primarily R.\n  See my full list of presentations and publications →    \n\n\n\n\n\n\n\n\nPresentation with Weihuang Wong at rstudio::conf(2022)\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation at SDSS 2020\n\n\n\n2020\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n  If you scrolled this far, don’t forget to work-life balance!"
+    "text": "Hi, I’m Kiegan!\n\nI’m a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy.\nOn this site, I share a bit about the work I do and how I do it: applications and websites I’ve built, publications and presentations I’ve authored, and the tools I use to get things done. This is my personal website and the content here does not reflect the viewpoint of my employer or project clients.\n\n\nI am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, public health, and health care. You can find out more about what I do on NORC’s website.\n\n\n\nI earned my Ph.D. in Statistics from Iowa State University in 2020, working with Dr. Heike Hofmann and Dr. Ulrike Genschel. My primary research topic was computational and statistical reproducibility of data science pipelines. I previously earned an M.S. in Statistics from Iowa State University and a B.A. in Mathematics and Spanish from St. Olaf College.\n\n\n\n\n\n\nBringing data to the public in a user-friendly way is an important part of modern data communication. I use a mix of tools (with R as my home base) to create interactive graphics and websites exploring social science and public policy data.\n  Browse my full portfolio →     Learn more about the tools I use →    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n \n\n\n\n\n\nAmerican Statistical Association\nmember since 2018\n ASA Section on Statistical Graphics\nSecretary/Treasurer, 2022-2024\n Data Visualization Society\nmember since 2021\n\n\n\n\n\n\nUnderstanding how users view, interact with, and interpret data visualizations is a key part of effective data communication. One of my key research areas is studying how elements of data visualization design impact a viewer’s perception and interpretation of a chart or graphic.\nEnsuring reproducibility in scientific research is critical to building a robust, reliable, and trustworthy body of scientific literature. Whenever code is applied to data to complete a task, it is important to document the steps taken, how and why those steps were taken, and the environment in which those steps were taken. I study reproducibility over time in research that uses open-source software, primarily R.\n  See my full list of presentations and publications →    \n\n\n\n\n\n\n\n\nPresentation at GASP 2023\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation at SDSS 2023\n\n\n\n2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n  If you scrolled this far, don’t forget to work-life balance!"
   },
   {
     "objectID": "products.html",
     "href": "products.html",
     "title": "Kiegan Rice",
     "section": "",
-    "text": "How to be a pollinatoR\n\n\nPresentation with Weihuang Wong at rstudio::conf(2022)\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape\n\n\nPresentation at SDSS 2020\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison\n\n\nDissertation submitted for completion of Ph.D. in Statistics at Iowa State University\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "UI Patterns for Code Reuse\n\n\nPresentation at GASP 2023\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTesting Statistical Charts for Accuracy and Interpretation\n\n\nPresentation at SDSS 2023\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to be a pollinatoR\n\n\nPresentation at rstudio::conf(2022)\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape\n\n\nPresentation at SDSS 2020\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison\n\n\nDissertation submitted for completion of Ph.D. in Statistics at Iowa State University\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#about-this-project",

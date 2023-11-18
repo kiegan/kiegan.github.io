@@ -1,0 +1,24 @@
+---
+title: "Testing Statistical Charts for Accuracy and Interpretation"
+image: "01-testing-charts-main.png"
+description: "Presentation at SDSS 2023"
+date: "05-25-2023"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+## Who was involved
+
+This work was jointly authored with [Heike Hofmann](https://heike.github.io/){target='_blank'}, [Nola du Toit](https://norc.org/about/experts/nola-du-toit.html){target='_blank'}, and [Ed Mulrow](https://norc.org/about/experts/edward-mulrow.html){target='_blank'}. 
+
+## Abstract
+
+The use of visuals is a key component in scientific communication, and decisions about the design of a data visualization should be informed by knowledge of what best supports the audience in understanding the data and conclusions correctly. We expand on the foundations of work in graphical perception (Cleveland and McGill 1986, Lu et al. 2022) and employ a large, nationally-representative, probability-based panel of survey respondents to test perception in statistical charts. Using AmeriSpeak's Omnibus panel, we conducted a series of visual tests. The large sample size, with its additional power, allows us to reproduce earlier findings and refine tests by varying structural and aesthetic elements used in the displayed image. Structural differences included whether the elements were aligned along a common baseline or not, as well as the orientation of the chart as a horizontal or vertical stacked bar chart. Beyond these more standard testing situations, we can also investigate the role aesthetic differences play, such as the color scheme, use of grid lines, and the role of context shown in the chart. Measured outcomes beyond accuracy are evaluation speed and self-reported certainty in one's response. Not surprisingly, we find that structural and aesthetic choices affect all outcome measures – sometimes not necessarily in the way we initially expected. For example, panelists' certainty is negatively correlated to correctness – most likely due to overlooking the difficulty of the task. However, our results allow us to go even beyond that: we find that some design choices change the way that respondents interact with a chart. Our findings provide experimentally validated, actionable guidance for data visualization practitioners to employ in their work.
+
+## About this product
+
+This work was presented at the [Symposium on Data Science and Statistics 2023](https://ww2.amstat.org/meetings/sdss/2023/){target='_blank'}. 
+
+
+
