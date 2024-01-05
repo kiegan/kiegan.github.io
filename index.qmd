@@ -38,7 +38,7 @@ On this site, I share a bit about the work I do and how I do it: applications an
 
 ### Current Role
 
-I am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, public health, and health care. You can find out more about what I do [on NORC's website](https://norc.org/about/experts/kiegan-rice.html){target='_blank'}.
+I am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, public health, and health care. You can find out more about what I do [on NORC's website](https://www.norc.org/about/experts/kiegan-rice.html){target='_blank'}.
 
 ### Education 
 
