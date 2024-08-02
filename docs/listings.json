@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/portfolio/06_live-crime-tracker/06_live-crime-tracker.html",
+      "/portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html",
       "/portfolio/04_sdr-interactives/04_sdr-interactives.html",
       "/portfolio/03_crime-fear-police/03_crime-fear-police.html",
       "/portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html",
@@ -27,6 +29,8 @@
   {
     "listing": "/portfolio.html",
     "items": [
+      "/portfolio/06_live-crime-tracker/06_live-crime-tracker.html",
+      "/portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html",
       "/portfolio/04_sdr-interactives/04_sdr-interactives.html",
       "/portfolio/03_crime-fear-police/03_crime-fear-police.html",
       "/portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html",

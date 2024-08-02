@@ -1,0 +1,53 @@
+---
+title: "Live Crime Tracker"
+image: live-crime-tracker-daily.png
+description: "Shiny-based data explorer for up-to-date crime data from over 50 cities."
+date: "06-01-2024"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+![](live-crime-tracker-main.png){width="20rem" style="border: 1px solid black; border-radius: 5px;"}
+
+
+## About this project
+
+This project developed an interactive website for exploring data on reported crime incidents in over 50 large U.S. cities. There were two huge efforts involved: the gathering and harmonizing of the data in a daily-updating process, and the website build. I was mainly involved in the site build. There are several way to explore the data on the site: 
+
+
+1.  Daily Crime Map, showing crime rates by offense type and day across cities on a map,
+
+2.  Daily Crime Comparison, showing crime rates by offense type and day across cities,
+
+3.  City Crime Profile, showing all reported crimes across offense types for a given city and day,
+
+4.  Trends Over Time, allowing for exploration of monthly incident totals by crime type, across cities.
+
+
+
+<a href="https://livecrimetracker.norc.org/" target="_blank">
+<button class="btn btn-success"> Explore the Live Crime Tracker site &#8594; </button>
+</a>
+<br>
+
+
+## Who was involved
+
+This site was a huge team effort! Our build team was myself, Sydney Bell, Peter Herman, and Taylor Wing. We also worked closely with NORC's Communications team on the site design and user experience, as well as NORC's subject matter experts on crime data.
+
+#### My role
+
+I implemented a lot of the website styling and layout in collaboration with Sydney Bell. I also developed the `reactable`-based interactive tables. 
+
+## Tools used
+
+This entire site is a Shiny application. Charts were created in D3, `ggiraph`, and `reactable`. 
+
+<i>Learn more about some of the key tools from this project by clicking on the hex.</i>
+
+[![](../../www/tools-shiny.png){class='hex-class-small'}](https://shiny.posit.co/){target='_blank'}
+[![](../../www/tools-ggiraph.png){class='hex-class-small'}](http://davidgohel.github.io/ggiraph/){target='_blank'}
+[![](../../www/tools-r2d3.png){class='hex-class-small'}](https://rstudio.github.io/r2d3/){target='_blank'}
+
+

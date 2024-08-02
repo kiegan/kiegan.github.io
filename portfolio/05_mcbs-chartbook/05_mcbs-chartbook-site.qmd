@@ -1,0 +1,55 @@
+---
+title: "MCBS Chartbook"
+image: mcbs-chartbook-site-main.png
+description: "Shiny application for exploring interactive charts on the Medicare population."
+date: "02-01-2024"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+![](mcbs-chartbook-site-main.png){width="20rem" style="border: 1px solid black; border-radius: 5px;"}
+
+
+## About this project
+
+This project developed an interactive website for exploring data on the Medicare population from the Medicare Current Beneficiary Survey (MCBS). These visuals highlight the breadth and depth of the data collected in the MCBS and allow data users to visually explore patterns and relationships among the Medicare population. 
+
+
+There are four main domains of content in the site:
+
+1.  Medicare Population Overview,
+
+2.  Beneficiary Health & Well-Being,
+
+3.  Health Care Access & Satisfaction
+
+4.  Health Care Use & Expenditures.
+
+
+
+<a href="https://www.chartbook.mcbs.org/" target="_blank">
+<button class="btn btn-success"> Explore the MCBS Chartbook site &#8594; </button>
+</a>
+<br>
+
+
+## Who was involved
+
+This site was built in its entirety by my wonderful colleague Taylor Wing and me. We worked with NORC's Communications team and our colleague Nola du Toit on the user experience and chart design, and of course our fantastic MCBS colleagues. 
+
+#### My role
+
+I implemented most of the site design, including the majority of the CSS and HTML elements. Taylor created all the interactive charts and helped with data and metadata preparation. 
+
+## Tools used
+
+This entire site is a Shiny application. Charts were created in `ggiraph`. We leveraged the `metathis` package to create custom meta tags for the site. 
+
+<i>Learn more about some of the key tools from this project by clicking on the hex.</i>
+
+[![](../../www/tools-shiny.png){class='hex-class-small'}](https://shiny.posit.co/){target='_blank'}
+[![](../../www/tools-ggiraph.png){class='hex-class-small'}](http://davidgohel.github.io/ggiraph/){target='_blank'}
+[![](../../www/tools-metathis.svg){class='hex-class-small'}](https://pkg.garrickadenbuie.com/metathis/){target='_blank'}
+
+

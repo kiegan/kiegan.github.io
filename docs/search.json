@@ -263,6 +263,48 @@
     "href": "portfolio.html",
     "title": "Kiegan Rice",
     "section": "",
-    "text": "SDR Data in Action\n\n\nInteractive visuals highlighting the Survey of Doctorate Recipients data in action on the survey website.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrime, Fear, and Police Contact\n\n\nTools to explore the intersection of crime, perceived crime, and police contact. Submission for the 2023 JSM Data Challenge.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMassachusetts Lawyers Dashboard\n\n\nInteractive data tools for Massachusetts Lawyer Census.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMCBS Interactives\n\n\nInteractive data explorer for Medicare Current Beneficiary Survey (MCBS) Public Use File and Covid-19 supplement.\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEAS Pathways Tool\n\n\nInteractive data tool for National Education and Attainment Survey (NEAS).\n\n\n\n\n\n\n2021\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Live Crime Tracker\n\n\nShiny-based data explorer for up-to-date crime data from over 50 cities.\n\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMCBS Chartbook\n\n\nShiny application for exploring interactive charts on the Medicare population.\n\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSDR Data in Action\n\n\nInteractive visuals highlighting the Survey of Doctorate Recipients data in action on the survey website.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrime, Fear, and Police Contact\n\n\nTools to explore the intersection of crime, perceived crime, and police contact. Submission for the 2023 JSM Data Challenge.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMassachusetts Lawyers Dashboard\n\n\nInteractive data tools for Massachusetts Lawyer Census.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMCBS Interactives\n\n\nInteractive data explorer for Medicare Current Beneficiary Survey (MCBS) Public Use File and Covid-19 supplement.\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEAS Pathways Tool\n\n\nInteractive data tool for National Education and Attainment Survey (NEAS).\n\n\n\n\n\n\n2021\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#about-this-project",
+    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#about-this-project",
+    "title": "MCBS Chartbook",
+    "section": "About this project",
+    "text": "About this project\nThis project developed an interactive website for exploring data on the Medicare population from the Medicare Current Beneficiary Survey (MCBS). These visuals highlight the breadth and depth of the data collected in the MCBS and allow data users to visually explore patterns and relationships among the Medicare population.\nThere are four main domains of content in the site:\n\nMedicare Population Overview,\nBeneficiary Health & Well-Being,\nHealth Care Access & Satisfaction\nHealth Care Use & Expenditures.\n\n  Explore the MCBS Chartbook site →"
+  },
+  {
+    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#who-was-involved",
+    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#who-was-involved",
+    "title": "MCBS Chartbook",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis site was built in its entirety by my wonderful colleague Taylor Wing and me. We worked with NORC’s Communications team and our colleague Nola du Toit on the user experience and chart design, and of course our fantastic MCBS colleagues.\n\nMy role\nI implemented most of the site design, including the majority of the CSS and HTML elements. Taylor created all the interactive charts and helped with data and metadata preparation."
+  },
+  {
+    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#tools-used",
+    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#tools-used",
+    "title": "MCBS Chartbook",
+    "section": "Tools used",
+    "text": "Tools used\nThis entire site is a Shiny application. Charts were created in ggiraph. We leveraged the metathis package to create custom meta tags for the site.\nLearn more about some of the key tools from this project by clicking on the hex."
+  },
+  {
+    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#about-this-project",
+    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#about-this-project",
+    "title": "Live Crime Tracker",
+    "section": "About this project",
+    "text": "About this project\nThis project developed an interactive website for exploring data on reported crime incidents in over 50 large U.S. cities. There were two huge efforts involved: the gathering and harmonizing of the data in a daily-updating process, and the website build. I was mainly involved in the site build. There are several way to explore the data on the site:\n\nDaily Crime Map, showing crime rates by offense type and day across cities on a map,\nDaily Crime Comparison, showing crime rates by offense type and day across cities,\nCity Crime Profile, showing all reported crimes across offense types for a given city and day,\nTrends Over Time, allowing for exploration of monthly incident totals by crime type, across cities.\n\n  Explore the Live Crime Tracker site →"
+  },
+  {
+    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#who-was-involved",
+    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#who-was-involved",
+    "title": "Live Crime Tracker",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis site was a huge team effort! Our build team was myself, Sydney Bell, Peter Herman, and Taylor Wing. We also worked closely with NORC’s Communications team on the site design and user experience, as well as NORC’s subject matter experts on crime data.\n\nMy role\nI implemented a lot of the website styling and layout in collaboration with Sydney Bell. I also developed the reactable-based interactive tables."
+  },
+  {
+    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#tools-used",
+    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#tools-used",
+    "title": "Live Crime Tracker",
+    "section": "Tools used",
+    "text": "Tools used\nThis entire site is a Shiny application. Charts were created in D3, ggiraph, and reactable.\nLearn more about some of the key tools from this project by clicking on the hex."
   }
 ]
