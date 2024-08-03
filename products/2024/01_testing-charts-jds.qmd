@@ -1,0 +1,23 @@
+---
+title: "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts"
+image: "01_testing-charts-jds-main.png"
+description: "Article on graphical perception in stacked bar charts among U.S. adults in the Journal of Data Science"
+date: "04-01-2024"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+## Who was involved
+
+This work was a collaborative effort by myself, Heike Hofmann, Nola du Toit, and Edward Mulrow. 
+
+## Abstract
+
+The use of visuals is a key component in scientific communication. Decisions about the design of a data visualization should be informed by what design elements best support the audience's ability to perceive and understand the components of the data visualization. We build on the foundations of Cleveland and McGill's work in graphical perception, employing a large, nationally-representative, probability-based panel of survey respondents to test perception in stacked bar charts. Our findings provide actionable guidance for data visualization practitioners to employ in their work.
+
+## About this product
+
+[Read the paper](https://jds-online.org/journal/JDS/article/1357/info){target="_blank"} [(DOI)](https://doi.org/10.6339/24-JDS1121){target="_blank"}
+
+
