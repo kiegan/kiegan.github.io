@@ -1,0 +1,26 @@
+---
+title: "Wait, That's Shiny?"
+image: "02_wait-thats-shiny-main.png"
+description: "Presentation about building public-facing data explorers in Shiny given at posit::conf(2024)"
+date: "08-12-2024"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+## Who was involved
+
+This one was all me! Though of course I had oodles of help from the Articulation coaches, and of course, all my colleagues and collaborators that worked on these projects with me.  
+
+## Abstract
+
+In my work I am often asked to develop interactive data explorers for public-use data sets, with an emphasis on making the tools engaging, easy to use, and understandable for a general audience. I’d like to talk about the work my team does to develop user-friendly Shiny applications that look and feel like full websites and share some of the tools we use. This includes things like designing landing pages, creating detailed "About" pages, letting users share links to specific charts or download static versions, adding social media sharing links, site meta tags, sub-URLs, and so much more. After attending this talk, I hope others are excited about leveraging tools to make their users say "Wait, that’s Shiny?"
+
+## About this product
+
+This work was presented at [posit::conf(2024)](https://posit.co/blog/talks-and-workshops-from-posit-conf-2024/){target='_blank'}. 
+
+[Watch the recording of my presentation](https://youtu.be/SAbV6d7Pn0U?si=qmx23gRMD1LiP-uK){target="_blank"}
+
+[See the example repository](https://github.com/kiegan/wait-thats-shiny){target="_blank"}
+

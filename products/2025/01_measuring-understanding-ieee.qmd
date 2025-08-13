@@ -1,0 +1,22 @@
+---
+title: "Measuring Real-World Understanding of Patterns in Data Graphics"
+image: "01_measuring-understanding-ieee-main.png"
+description: "Article published in IEEE Computer Graphics & Applications"
+date: "07-01-2025"
+date-format: "YYYY"
+editor: source
+title-block-banner: true
+---
+
+## Who was involved
+
+This work was a collaborative effort by myself, Sydney Bell, Taylor Wing, Heike Hofmann, and Nola du Toit. 
+
+## Abstract
+
+Presenting data visually is a cornerstone of effective science communication. While prior studies have investigated humans' ability to effectively perceive values in charts, fewer have focused on the translation of perceived values to real-world conclusions. Those that do focus on real-world understanding often utilize convenience samples or focus on very simple graphic formats, resulting in an incomplete understanding of how viewers translate data graphics into meaningful conclusions. We utilize a probability-based sample of over 3,000 participants in the U.S. to test user understanding of three chart types and find that both educational attainment and age play a role in ability to interpret data graphics. Our work demonstrates a need for further study on how chart comprehension and comfort with drawing real-world conclusions differs across demographic groups and commonly-used chart types. Additionally, this work highlights that complex charts can be inaccessible to viewers who lack confidence in reading a chart.
+
+## About this product
+
+[Read the paper](https://ieeexplore.ieee.org/document/10980266){target="_blank"} [(DOI)](https://doi.org/10.1109/MCG.2025.3565834){target="_blank"}
+

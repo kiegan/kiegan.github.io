@@ -21,6 +21,69 @@
     "text": "About this product\nThis work was presented at rstudio::conf(2022).\nWatch the recording of our presentation\nSee the slides from our presentation"
   },
   {
+    "objectID": "products/2025/01_measuring-understanding-ieee.html",
+    "href": "products/2025/01_measuring-understanding-ieee.html",
+    "title": "Measuring Real-World Understanding of Patterns in Data Graphics",
+    "section": "",
+    "text": "This work was a collaborative effort by myself, Sydney Bell, Taylor Wing, Heike Hofmann, and Nola du Toit."
+  },
+  {
+    "objectID": "products/2025/01_measuring-understanding-ieee.html#abstract",
+    "href": "products/2025/01_measuring-understanding-ieee.html#abstract",
+    "title": "Measuring Real-World Understanding of Patterns in Data Graphics",
+    "section": "Abstract",
+    "text": "Abstract\nPresenting data visually is a cornerstone of effective science communication. While prior studies have investigated humans’ ability to effectively perceive values in charts, fewer have focused on the translation of perceived values to real-world conclusions. Those that do focus on real-world understanding often utilize convenience samples or focus on very simple graphic formats, resulting in an incomplete understanding of how viewers translate data graphics into meaningful conclusions. We utilize a probability-based sample of over 3,000 participants in the U.S. to test user understanding of three chart types and find that both educational attainment and age play a role in ability to interpret data graphics. Our work demonstrates a need for further study on how chart comprehension and comfort with drawing real-world conclusions differs across demographic groups and commonly-used chart types. Additionally, this work highlights that complex charts can be inaccessible to viewers who lack confidence in reading a chart."
+  },
+  {
+    "objectID": "products/2025/01_measuring-understanding-ieee.html#about-this-product",
+    "href": "products/2025/01_measuring-understanding-ieee.html#about-this-product",
+    "title": "Measuring Real-World Understanding of Patterns in Data Graphics",
+    "section": "About this product",
+    "text": "About this product\nRead the paper (DOI)"
+  },
+  {
+    "objectID": "products/2024/01_testing-charts-jds.html",
+    "href": "products/2024/01_testing-charts-jds.html",
+    "title": "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts",
+    "section": "",
+    "text": "This work was a collaborative effort by myself, Heike Hofmann, Nola du Toit, and Edward Mulrow."
+  },
+  {
+    "objectID": "products/2024/01_testing-charts-jds.html#abstract",
+    "href": "products/2024/01_testing-charts-jds.html#abstract",
+    "title": "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts",
+    "section": "Abstract",
+    "text": "Abstract\nThe use of visuals is a key component in scientific communication. Decisions about the design of a data visualization should be informed by what design elements best support the audience’s ability to perceive and understand the components of the data visualization. We build on the foundations of Cleveland and McGill’s work in graphical perception, employing a large, nationally-representative, probability-based panel of survey respondents to test perception in stacked bar charts. Our findings provide actionable guidance for data visualization practitioners to employ in their work."
+  },
+  {
+    "objectID": "products/2024/01_testing-charts-jds.html#about-this-product",
+    "href": "products/2024/01_testing-charts-jds.html#about-this-product",
+    "title": "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts",
+    "section": "About this product",
+    "text": "About this product\nRead the paper (DOI)"
+  },
+  {
+    "objectID": "products/2024/02_wait-thats-shiny.html",
+    "href": "products/2024/02_wait-thats-shiny.html",
+    "title": "Wait, That’s Shiny?",
+    "section": "",
+    "text": "This one was all me! Though of course I had oodles of help from the Articulation coaches, and of course, all my colleagues and collaborators that worked on these projects with me."
+  },
+  {
+    "objectID": "products/2024/02_wait-thats-shiny.html#abstract",
+    "href": "products/2024/02_wait-thats-shiny.html#abstract",
+    "title": "Wait, That’s Shiny?",
+    "section": "Abstract",
+    "text": "Abstract\nIn my work I am often asked to develop interactive data explorers for public-use data sets, with an emphasis on making the tools engaging, easy to use, and understandable for a general audience. I’d like to talk about the work my team does to develop user-friendly Shiny applications that look and feel like full websites and share some of the tools we use. This includes things like designing landing pages, creating detailed “About” pages, letting users share links to specific charts or download static versions, adding social media sharing links, site meta tags, sub-URLs, and so much more. After attending this talk, I hope others are excited about leveraging tools to make their users say “Wait, that’s Shiny?”"
+  },
+  {
+    "objectID": "products/2024/02_wait-thats-shiny.html#about-this-product",
+    "href": "products/2024/02_wait-thats-shiny.html#about-this-product",
+    "title": "Wait, That’s Shiny?",
+    "section": "About this product",
+    "text": "About this product\nThis work was presented at posit::conf(2024).\nWatch the recording of my presentation\nSee the example repository"
+  },
+  {
     "objectID": "products/2023/02_code-reuse-gasp.html",
     "href": "products/2023/02_code-reuse-gasp.html",
     "title": "UI Patterns for Code Reuse",
@@ -144,14 +207,56 @@
     "href": "index.html",
     "title": "Kiegan Rice",
     "section": "",
-    "text": "Hi, I’m Kiegan!\n\nI’m a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy.\nOn this site, I share a bit about the work I do and how I do it: applications and websites I’ve built, publications and presentations I’ve authored, and the tools I use to get things done. This is my personal website and the content here does not reflect the viewpoint of my employer or project clients.\n\n\nI am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, public health, and health care. You can find out more about what I do on NORC’s website.\n\n\n\nI earned my Ph.D. in Statistics from Iowa State University in 2020, working with Dr. Heike Hofmann and Dr. Ulrike Genschel. My primary research topic was computational and statistical reproducibility of data science pipelines. I previously earned an M.S. in Statistics from Iowa State University and a B.A. in Mathematics and Spanish from St. Olaf College.\n\n\n\n\n\n\nBringing data to the public in a user-friendly way is an important part of modern data communication. I use a mix of tools (with R as my home base) to create interactive graphics and websites exploring social science and public policy data.\n  Browse my full portfolio →     Learn more about the tools I use →    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n \n\n\n\n\n\nAmerican Statistical Association\nmember since 2018\n ASA Section on Statistical Graphics\nSecretary/Treasurer, 2022-2024\n Data Visualization Society\nmember since 2021\n\n\n\n\n\n\nUnderstanding how users view, interact with, and interpret data visualizations is a key part of effective data communication. One of my key research areas is studying how elements of data visualization design impact a viewer’s perception and interpretation of a chart or graphic.\nEnsuring reproducibility in scientific research is critical to building a robust, reliable, and trustworthy body of scientific literature. Whenever code is applied to data to complete a task, it is important to document the steps taken, how and why those steps were taken, and the environment in which those steps were taken. I study reproducibility over time in research that uses open-source software, primarily R.\n  See my full list of presentations and publications →    \n\n\n\n\n\n\n\n\nArticle on graphical perception in stacked bar charts among U.S. adults in the Journal of Data Science\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation at GASP 2023\n\n\n\n2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n  If you scrolled this far, don’t forget to work-life balance!"
+    "text": "Hi, I’m Kiegan!\n\nI’m a Statistician specializing in static and interactive data visualization, computational reproducibility, and scientific communication. I believe that data-driven decision making can have a hugely positive impact on the world, particularly when those decisions inform policy.\nOn this site, I share a bit about the work I do and how I do it: applications and websites I’ve built, publications and presentations I’ve authored, and the tools I use to get things done. This is my personal website and the content here does not reflect the viewpoint of my employer or project clients.\n\n\nI am a Senior Statistican in the Statistics and Data Science department at NORC at the University of Chicago. I work on projects in higher education, economics, public health, health care, and public safety. You can find out more about what I do on NORC’s website.\n\n\n\nI earned my Ph.D. in Statistics from Iowa State University in 2020, working with Dr. Heike Hofmann and Dr. Ulrike Genschel. My primary research topic was computational and statistical reproducibility of data science pipelines. I previously earned an M.S. in Statistics from Iowa State University and a B.A. in Mathematics and Spanish from St. Olaf College.\n\n\n\n\n\n\nBringing data to the public in a user-friendly way is an important part of modern data communication. I use a mix of tools (with R as my home base) to create interactive graphics and websites exploring social science and public policy data.\n  Browse my full portfolio →     Learn more about the tools I use →    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n \n\n\n\n\n\nAmerican Statistical Association\nmember since 2018\n ASA Section on Statistical Graphics\nSecretary/Treasurer, 2022-2024\nChair-Elect, 2026  Data Visualization Society\nmember since 2021\n\n\n\n\n\n\nUnderstanding how users view, interact with, and interpret data visualizations is a key part of effective data communication. One of my key research areas is studying how elements of data visualization design impact a viewer’s perception and interpretation of a chart or graphic.\nEnsuring reproducibility in scientific research is critical to building a robust, reliable, and trustworthy body of scientific literature. Whenever code is applied to data to complete a task, it is important to document the steps taken, how and why those steps were taken, and the environment in which those steps were taken. I study reproducibility over time in research that uses open-source software, primarily R.\n  See my full list of presentations and publications →    \n\n\n\n\n\n\n\n\nArticle published in IEEE Computer Graphics & Applications\n\n\n\n2025\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation about building public-facing data explorers in Shiny given at posit::conf(2024)\n\n\n\n2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n  If you scrolled this far, don’t forget to work-life balance!"
   },
   {
     "objectID": "products.html",
     "href": "products.html",
     "title": "Kiegan Rice",
     "section": "",
-    "text": "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts\n\n\nArticle on graphical perception in stacked bar charts among U.S. adults in the Journal of Data Science\n\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUI Patterns for Code Reuse\n\n\nPresentation at GASP 2023\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTesting Statistical Charts for Accuracy and Interpretation\n\n\nPresentation at SDSS 2023\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to be a pollinatoR\n\n\nPresentation at rstudio::conf(2022)\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape\n\n\nPresentation at SDSS 2020\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison\n\n\nDissertation submitted for completion of Ph.D. in Statistics at Iowa State University\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Measuring Real-World Understanding of Patterns in Data Graphics\n\n\nArticle published in IEEE Computer Graphics & Applications\n\n\n\n\n\n\n2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWait, That’s Shiny?\n\n\nPresentation about building public-facing data explorers in Shiny given at posit::conf(2024)\n\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTesting Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts\n\n\nArticle on graphical perception in stacked bar charts among U.S. adults in the Journal of Data Science\n\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUI Patterns for Code Reuse\n\n\nPresentation at GASP 2023\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTesting Statistical Charts for Accuracy and Interpretation\n\n\nPresentation at SDSS 2023\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to be a pollinatoR\n\n\nPresentation at rstudio::conf(2022)\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Paradigm for Managing Computational Reproducibility in a Changing Software Package Landscape\n\n\nPresentation at SDSS 2020\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA framework for statistical and computational reproducibility in large-scale data analysis projects with a focus on automated forensic bullet evidence comparison\n\n\nDissertation submitted for completion of Ph.D. in Statistics at Iowa State University\n\n\n\n\n\n\n2020\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#about-this-project",
+    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#about-this-project",
+    "title": "Live Crime Tracker",
+    "section": "About this project",
+    "text": "About this project\nThis project developed an interactive website for exploring data on reported crime incidents in over 50 large U.S. cities. There were two huge efforts involved: the gathering and harmonizing of the data in a daily-updating process, and the website build. I was mainly involved in the site build. There are several way to explore the data on the site:\n\nDaily Crime Map, showing crime rates by offense type and day across cities on a map,\nDaily Crime Comparison, showing crime rates by offense type and day across cities,\nCity Crime Profile, showing all reported crimes across offense types for a given city and day,\nTrends Over Time, allowing for exploration of monthly incident totals by crime type, across cities.\n\n  Explore the Live Crime Tracker site →"
+  },
+  {
+    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#who-was-involved",
+    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#who-was-involved",
+    "title": "Live Crime Tracker",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis site was a huge team effort! Our build team was myself, Sydney Bell, Peter Herman, and Taylor Wing. We also worked closely with NORC’s Communications team on the site design and user experience, as well as NORC’s subject matter experts on crime data.\n\nMy role\nI implemented a lot of the website styling and layout in collaboration with Sydney Bell. I also developed the reactable-based interactive tables."
+  },
+  {
+    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#tools-used",
+    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#tools-used",
+    "title": "Live Crime Tracker",
+    "section": "Tools used",
+    "text": "Tools used\nThis entire site is a Shiny application. Charts were created in D3, ggiraph, and reactable.\nLearn more about some of the key tools from this project by clicking on the hex."
+  },
+  {
+    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#about-this-project",
+    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#about-this-project",
+    "title": "MCBS Chartbook",
+    "section": "About this project",
+    "text": "About this project\nThis project developed an interactive website for exploring data on the Medicare population from the Medicare Current Beneficiary Survey (MCBS). These visuals highlight the breadth and depth of the data collected in the MCBS and allow data users to visually explore patterns and relationships among the Medicare population.\nThere are four main domains of content in the site:\n\nMedicare Population Overview,\nBeneficiary Health & Well-Being,\nHealth Care Access & Satisfaction\nHealth Care Use & Expenditures.\n\n  Explore the MCBS Chartbook site →"
+  },
+  {
+    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#who-was-involved",
+    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#who-was-involved",
+    "title": "MCBS Chartbook",
+    "section": "Who was involved",
+    "text": "Who was involved\nThis site was built in its entirety by my wonderful colleague Taylor Wing and me. We worked with NORC’s Communications team and our colleague Nola du Toit on the user experience and chart design, and of course our fantastic MCBS colleagues.\n\nMy role\nI implemented most of the site design, including the majority of the CSS and HTML elements. Taylor created all the interactive charts and helped with data and metadata preparation."
+  },
+  {
+    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#tools-used",
+    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#tools-used",
+    "title": "MCBS Chartbook",
+    "section": "Tools used",
+    "text": "Tools used\nThis entire site is a Shiny application. Charts were created in ggiraph. We leveraged the metathis package to create custom meta tags for the site.\nLearn more about some of the key tools from this project by clicking on the hex."
   },
   {
     "objectID": "portfolio/02_mass-lawyers-tool/02_mass-lawyers-tool.html#about-this-project",
@@ -264,68 +369,5 @@
     "title": "Kiegan Rice",
     "section": "",
     "text": "Live Crime Tracker\n\n\nShiny-based data explorer for up-to-date crime data from over 50 cities.\n\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMCBS Chartbook\n\n\nShiny application for exploring interactive charts on the Medicare population.\n\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSDR Data in Action\n\n\nInteractive visuals highlighting the Survey of Doctorate Recipients data in action on the survey website.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrime, Fear, and Police Contact\n\n\nTools to explore the intersection of crime, perceived crime, and police contact. Submission for the 2023 JSM Data Challenge.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMassachusetts Lawyers Dashboard\n\n\nInteractive data tools for Massachusetts Lawyer Census.\n\n\n\n\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMCBS Interactives\n\n\nInteractive data explorer for Medicare Current Beneficiary Survey (MCBS) Public Use File and Covid-19 supplement.\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEAS Pathways Tool\n\n\nInteractive data tool for National Education and Attainment Survey (NEAS).\n\n\n\n\n\n\n2021\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#about-this-project",
-    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#about-this-project",
-    "title": "MCBS Chartbook",
-    "section": "About this project",
-    "text": "About this project\nThis project developed an interactive website for exploring data on the Medicare population from the Medicare Current Beneficiary Survey (MCBS). These visuals highlight the breadth and depth of the data collected in the MCBS and allow data users to visually explore patterns and relationships among the Medicare population.\nThere are four main domains of content in the site:\n\nMedicare Population Overview,\nBeneficiary Health & Well-Being,\nHealth Care Access & Satisfaction\nHealth Care Use & Expenditures.\n\n  Explore the MCBS Chartbook site →"
-  },
-  {
-    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#who-was-involved",
-    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#who-was-involved",
-    "title": "MCBS Chartbook",
-    "section": "Who was involved",
-    "text": "Who was involved\nThis site was built in its entirety by my wonderful colleague Taylor Wing and me. We worked with NORC’s Communications team and our colleague Nola du Toit on the user experience and chart design, and of course our fantastic MCBS colleagues.\n\nMy role\nI implemented most of the site design, including the majority of the CSS and HTML elements. Taylor created all the interactive charts and helped with data and metadata preparation."
-  },
-  {
-    "objectID": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#tools-used",
-    "href": "portfolio/05_mcbs-chartbook/05_mcbs-chartbook-site.html#tools-used",
-    "title": "MCBS Chartbook",
-    "section": "Tools used",
-    "text": "Tools used\nThis entire site is a Shiny application. Charts were created in ggiraph. We leveraged the metathis package to create custom meta tags for the site.\nLearn more about some of the key tools from this project by clicking on the hex."
-  },
-  {
-    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#about-this-project",
-    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#about-this-project",
-    "title": "Live Crime Tracker",
-    "section": "About this project",
-    "text": "About this project\nThis project developed an interactive website for exploring data on reported crime incidents in over 50 large U.S. cities. There were two huge efforts involved: the gathering and harmonizing of the data in a daily-updating process, and the website build. I was mainly involved in the site build. There are several way to explore the data on the site:\n\nDaily Crime Map, showing crime rates by offense type and day across cities on a map,\nDaily Crime Comparison, showing crime rates by offense type and day across cities,\nCity Crime Profile, showing all reported crimes across offense types for a given city and day,\nTrends Over Time, allowing for exploration of monthly incident totals by crime type, across cities.\n\n  Explore the Live Crime Tracker site →"
-  },
-  {
-    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#who-was-involved",
-    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#who-was-involved",
-    "title": "Live Crime Tracker",
-    "section": "Who was involved",
-    "text": "Who was involved\nThis site was a huge team effort! Our build team was myself, Sydney Bell, Peter Herman, and Taylor Wing. We also worked closely with NORC’s Communications team on the site design and user experience, as well as NORC’s subject matter experts on crime data.\n\nMy role\nI implemented a lot of the website styling and layout in collaboration with Sydney Bell. I also developed the reactable-based interactive tables."
-  },
-  {
-    "objectID": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#tools-used",
-    "href": "portfolio/06_live-crime-tracker/06_live-crime-tracker.html#tools-used",
-    "title": "Live Crime Tracker",
-    "section": "Tools used",
-    "text": "Tools used\nThis entire site is a Shiny application. Charts were created in D3, ggiraph, and reactable.\nLearn more about some of the key tools from this project by clicking on the hex."
-  },
-  {
-    "objectID": "products/2024/01_testing-charts-jds.html",
-    "href": "products/2024/01_testing-charts-jds.html",
-    "title": "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts",
-    "section": "",
-    "text": "This work was a collaborative effort by myself, Heike Hofmann, Nola du Toit, and Edward Mulrow."
-  },
-  {
-    "objectID": "products/2024/01_testing-charts-jds.html#abstract",
-    "href": "products/2024/01_testing-charts-jds.html#abstract",
-    "title": "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts",
-    "section": "Abstract",
-    "text": "Abstract\nThe use of visuals is a key component in scientific communication. Decisions about the design of a data visualization should be informed by what design elements best support the audience’s ability to perceive and understand the components of the data visualization. We build on the foundations of Cleveland and McGill’s work in graphical perception, employing a large, nationally-representative, probability-based panel of survey respondents to test perception in stacked bar charts. Our findings provide actionable guidance for data visualization practitioners to employ in their work."
-  },
-  {
-    "objectID": "products/2024/01_testing-charts-jds.html#about-this-product",
-    "href": "products/2024/01_testing-charts-jds.html#about-this-product",
-    "title": "Testing Perceptual Accuracy in a US General Population Survey Using Stacked Bar Charts",
-    "section": "About this product",
-    "text": "About this product\nRead the paper (DOI)"
   }
 ]
